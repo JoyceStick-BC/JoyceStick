@@ -1,0 +1,9 @@
+{
+    "assets": {
+        "joycestick/nestorenvironment": "1", 
+        "joycestick/schooldesk": "1", 
+        "steamvr/SteamVR": "1", 
+        "vrtk/VRTK": "1"
+    }, 
+    "packages": {}
+}
