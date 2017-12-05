@@ -70,6 +70,33 @@ def pull(path):
                 download(bundlename, None, path)
 
 
+@cli.command()
+@click.option('--path', help='Absolute path to locate info.json. Defaults to currentDir/Assets/vendor.')
+def delete(path):
+    if path is None:
+        path = os.path.join(os.getcwd(), "Assets")
+        path = os.path.join(path, "vendor")
+        path += os.sep
+
+    with open(path + "trimm.json", 'r') as trimm_file:
+        trimm_json = json.load(trimm_file)
+        trimm_assets = trimm_json["assets"]
+        trimm_assets_names = []
+
+        for bundlename, version in trimm_assets.items():
+            trimm_assets_names.append(bundlename.split("/")[1])
+
+        for filename in os.listdir(path):
+            new_path = os.path.join(path, filename)
+            if os.path.isdir(new_path):
+                for inner_filename in os.listdir(new_path):
+                    if inner_filename not in trimm_assets_names:
+                        to_delete = os.path.join(new_path, inner_filename)
+                        shutil.rmtree(to_delete)
+                if not os.listdir(new_path):
+                    os.rmdir(new_path)
+
+
 # installs unzipped package to the given directory
 def download(bundlename, version, path):
     url = "http://trimm3d.com/download/" + bundlename + ""
