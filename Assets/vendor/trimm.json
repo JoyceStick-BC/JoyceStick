@@ -1,0 +1,9 @@
+{
+    "assets": {
+        "joycestick/glowing_coals": "1", 
+        "joycestick/sandbox_environment": "1", 
+        "steamvr/SteamVR": "1", 
+        "vrtk/VRTK": "1"
+    }, 
+    "packages": {}
+}
