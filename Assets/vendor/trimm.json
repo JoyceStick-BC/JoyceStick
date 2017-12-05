@@ -1,7 +1,14 @@
 {
     "assets": {
-        "joycestick/glowing_coals": "1", 
+        "joycestick/bowler_hat": "1", 
+        "joycestick/coat_on_rack": "1", 
+        "joycestick/fez": "1", 
+        "joycestick/gramophone": "1", 
+        "joycestick/lemon_soap": "1", 
+        "joycestick/poster_template": "1", 
         "joycestick/sandbox_environment": "1", 
+        "joycestick/small_shelf": "1", 
+        "joycestick/table_1": "1", 
         "steamvr/SteamVR": "1", 
         "vrtk/VRTK": "1"
     }, 
