@@ -103,9 +103,8 @@ def make_zips(path):
             if filename != "__transfer__" and os.path.isdir(new_path):
                 for inner_filename in os.listdir(new_path):
                     bundlename = filename + "/" + inner_filename
-                    if bundlename not in trimm_assets.keys():
-                        bundle_path = os.path.join(new_path, inner_filename)
-
+                    bundle_path = os.path.join(new_path, inner_filename)
+                    if os.path.isdir(bundle_path) and bundlename not in trimm_assets.keys():
                         # copy bundle to a new folder
                         transfered_bundle_path = os.path.join(transfer_path, inner_filename)
                         try:
