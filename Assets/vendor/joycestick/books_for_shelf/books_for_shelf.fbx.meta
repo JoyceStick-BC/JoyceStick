@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: c71b6dcd2109c3a4894b4a4cb95939bd
+timeCreated: 1493583200
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: __BackPages_GEO
+    100002: __BackPages_GEO 1
+    100004: __BackPages_GEO 2
+    100006: __BackPages_GEO 3
+    100008: __BackPages_GEO 4
+    100010: __Cover_GEO
+    100012: __Cover_GEO 1
+    100014: __Cover_GEO 2
+    100016: __Cover_GEO 3
+    100018: __Cover_GEO 4
+    100020: __FinnegansWAkeBook_GRP
+    100022: __FinnegansWAkeBook_GRP 1
+    100024: __FrenchPrimer_GRP
+    100026: __FrenchPrimer_GRP 1
+    100028: __FrontPages_GEO
+    100030: __FrontPages_GEO 1
+    100032: __FrontPages_GEO 2
+    100034: __FrontPages_GEO 3
+    100036: __FrontPages_GEO 4
+    100038: __GEO_GRP
+    100040: __GEO_GRP 1
+    100042: __GEO_GRP 2
+    100044: __GEO_GRP 3
+    100046: __GEO_GRP 4
+    100048: __RubyThePrideOfTheRing_GRP
+    100050: __RubyThePrideOfTheRing_GRP 1
+    100052: __StrenghtAndHowToObtainIt_GRP
+    100054: __StrenghtAndHowToObtainIt_GRP 1
+    100056: __TheStoryOfTheHeavens_FRP
+    100058: __TheStoryOfTheHeavens_GRP
+    100060: __ThomsDirectory_GEO
+    100062: BackPages_GEO
+    100064: //RootNode
+    100066: Cover_GEO
+    100068: FinnegansWAkeBook_GRP
+    100070: FinnegansWAkeBook_GRP 1
+    100072: FrontPages_GEO
+    100074: GEO_GRP
+    100076: SumsBook_GEO
+    100078: UlyssesBook_GRP
+    100080: UlyssesBook_GRP 1
+    400000: __BackPages_GEO
+    400002: __BackPages_GEO 1
+    400004: __BackPages_GEO 2
+    400006: __BackPages_GEO 3
+    400008: __BackPages_GEO 4
+    400010: __Cover_GEO
+    400012: __Cover_GEO 1
+    400014: __Cover_GEO 2
+    400016: __Cover_GEO 3
+    400018: __Cover_GEO 4
+    400020: __FinnegansWAkeBook_GRP
+    400022: __FinnegansWAkeBook_GRP 1
+    400024: __FrenchPrimer_GRP
+    400026: __FrenchPrimer_GRP 1
+    400028: __FrontPages_GEO
+    400030: __FrontPages_GEO 1
+    400032: __FrontPages_GEO 2
+    400034: __FrontPages_GEO 3
+    400036: __FrontPages_GEO 4
+    400038: __GEO_GRP
+    400040: __GEO_GRP 1
+    400042: __GEO_GRP 2
+    400044: __GEO_GRP 3
+    400046: __GEO_GRP 4
+    400048: __RubyThePrideOfTheRing_GRP
+    400050: __RubyThePrideOfTheRing_GRP 1
+    400052: __StrenghtAndHowToObtainIt_GRP
+    400054: __StrenghtAndHowToObtainIt_GRP 1
+    400056: __TheStoryOfTheHeavens_FRP
+    400058: __TheStoryOfTheHeavens_GRP
+    400060: __ThomsDirectory_GEO
+    400062: BackPages_GEO
+    400064: //RootNode
+    400066: Cover_GEO
+    400068: FinnegansWAkeBook_GRP
+    400070: FinnegansWAkeBook_GRP 1
+    400072: FrontPages_GEO
+    400074: GEO_GRP
+    400076: SumsBook_GEO
+    400078: UlyssesBook_GRP
+    400080: UlyssesBook_GRP 1
+    2300000: __BackPages_GEO
+    2300002: __BackPages_GEO 1
+    2300004: __BackPages_GEO 2
+    2300006: __BackPages_GEO 3
+    2300008: __BackPages_GEO 4
+    2300010: __Cover_GEO
+    2300012: __Cover_GEO 1
+    2300014: __Cover_GEO 2
+    2300016: __Cover_GEO 3
+    2300018: __Cover_GEO 4
+    2300020: __FrontPages_GEO
+    2300022: __FrontPages_GEO 1
+    2300024: __FrontPages_GEO 2
+    2300026: __FrontPages_GEO 3
+    2300028: __FrontPages_GEO 4
+    2300030: __ThomsDirectory_GEO
+    2300032: BackPages_GEO
+    2300034: Cover_GEO
+    2300036: FrontPages_GEO
+    2300038: SumsBook_GEO
+    3300000: __BackPages_GEO
+    3300002: __BackPages_GEO 1
+    3300004: __BackPages_GEO 2
+    3300006: __BackPages_GEO 3
+    3300008: __BackPages_GEO 4
+    3300010: __Cover_GEO
+    3300012: __Cover_GEO 1
+    3300014: __Cover_GEO 2
+    3300016: __Cover_GEO 3
+    3300018: __Cover_GEO 4
+    3300020: __FrontPages_GEO
+    3300022: __FrontPages_GEO 1
+    3300024: __FrontPages_GEO 2
+    3300026: __FrontPages_GEO 3
+    3300028: __FrontPages_GEO 4
+    3300030: __ThomsDirectory_GEO
+    3300032: BackPages_GEO
+    3300034: Cover_GEO
+    3300036: FrontPages_GEO
+    3300038: SumsBook_GEO
+    4300000: FrontPages_GEO
+    4300002: BackPages_GEO
+    4300004: Cover_GEO
+    4300006: __FrontPages_GEO
+    4300008: __BackPages_GEO
+    4300010: __Cover_GEO
+    4300012: __FrontPages_GEO
+    4300014: __BackPages_GEO
+    4300016: __Cover_GEO
+    4300018: __ThomsDirectory_GEO
+    4300020: __FrontPages_GEO
+    4300022: __BackPages_GEO
+    4300024: __Cover_GEO
+    4300026: __FrontPages_GEO
+    4300028: __BackPages_GEO
+    4300030: __Cover_GEO
+    4300032: __FrontPages_GEO
+    4300034: __BackPages_GEO
+    4300036: __Cover_GEO
+    4300038: SumsBook_GEO
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
