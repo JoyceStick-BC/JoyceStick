@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 58d33df69661a7341a55dd400111245c
+timeCreated: 1493621259
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Fan_GEO
+    100002: //RootNode
+    100004: Hander_GRP
+    100006: Hard_Hander_Back_GEO
+    100008: Hard_Hander_Back_GEO1
+    100010: Knot_GEO
+    100012: Thin_Hander_1_GEO
+    100014: Thin_Hander_1_GEO1
+    100016: Thin_Hander_1_GEO10
+    100018: Thin_Hander_1_GEO11
+    100020: Thin_Hander_1_GEO12
+    100022: Thin_Hander_1_GEO13
+    100024: Thin_Hander_1_GEO2
+    100026: Thin_Hander_1_GEO3
+    100028: Thin_Hander_1_GEO4
+    100030: Thin_Hander_1_GEO5
+    100032: Thin_Hander_1_GEO6
+    100034: Thin_Hander_1_GEO7
+    100036: Thin_Hander_1_GEO8
+    100038: Thin_Hander_1_GEO9
+    400000: Fan_GEO
+    400002: //RootNode
+    400004: Hander_GRP
+    400006: Hard_Hander_Back_GEO
+    400008: Hard_Hander_Back_GEO1
+    400010: Knot_GEO
+    400012: Thin_Hander_1_GEO
+    400014: Thin_Hander_1_GEO1
+    400016: Thin_Hander_1_GEO10
+    400018: Thin_Hander_1_GEO11
+    400020: Thin_Hander_1_GEO12
+    400022: Thin_Hander_1_GEO13
+    400024: Thin_Hander_1_GEO2
+    400026: Thin_Hander_1_GEO3
+    400028: Thin_Hander_1_GEO4
+    400030: Thin_Hander_1_GEO5
+    400032: Thin_Hander_1_GEO6
+    400034: Thin_Hander_1_GEO7
+    400036: Thin_Hander_1_GEO8
+    400038: Thin_Hander_1_GEO9
+    2300000: Fan_GEO
+    2300002: Hard_Hander_Back_GEO
+    2300004: Hard_Hander_Back_GEO1
+    2300006: Knot_GEO
+    2300008: Thin_Hander_1_GEO
+    2300010: Thin_Hander_1_GEO1
+    2300012: Thin_Hander_1_GEO10
+    2300014: Thin_Hander_1_GEO11
+    2300016: Thin_Hander_1_GEO12
+    2300018: Thin_Hander_1_GEO13
+    2300020: Thin_Hander_1_GEO2
+    2300022: Thin_Hander_1_GEO3
+    2300024: Thin_Hander_1_GEO4
+    2300026: Thin_Hander_1_GEO5
+    2300028: Thin_Hander_1_GEO6
+    2300030: Thin_Hander_1_GEO7
+    2300032: Thin_Hander_1_GEO8
+    2300034: Thin_Hander_1_GEO9
+    3300000: Fan_GEO
+    3300002: Hard_Hander_Back_GEO
+    3300004: Hard_Hander_Back_GEO1
+    3300006: Knot_GEO
+    3300008: Thin_Hander_1_GEO
+    3300010: Thin_Hander_1_GEO1
+    3300012: Thin_Hander_1_GEO10
+    3300014: Thin_Hander_1_GEO11
+    3300016: Thin_Hander_1_GEO12
+    3300018: Thin_Hander_1_GEO13
+    3300020: Thin_Hander_1_GEO2
+    3300022: Thin_Hander_1_GEO3
+    3300024: Thin_Hander_1_GEO4
+    3300026: Thin_Hander_1_GEO5
+    3300028: Thin_Hander_1_GEO6
+    3300030: Thin_Hander_1_GEO7
+    3300032: Thin_Hander_1_GEO8
+    3300034: Thin_Hander_1_GEO9
+    4300000: Fan_GEO
+    4300002: Thin_Hander_1_GEO
+    4300004: Hard_Hander_Back_GEO
+    4300006: Knot_GEO
+    4300008: Thin_Hander_1_GEO1
+    4300010: Thin_Hander_1_GEO2
+    4300012: Thin_Hander_1_GEO3
+    4300014: Thin_Hander_1_GEO4
+    4300016: Thin_Hander_1_GEO5
+    4300018: Thin_Hander_1_GEO6
+    4300020: Thin_Hander_1_GEO7
+    4300022: Thin_Hander_1_GEO8
+    4300024: Thin_Hander_1_GEO9
+    4300026: Thin_Hander_1_GEO10
+    4300028: Thin_Hander_1_GEO11
+    4300030: Thin_Hander_1_GEO12
+    4300032: Thin_Hander_1_GEO13
+    4300034: Hard_Hander_Back_GEO1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
