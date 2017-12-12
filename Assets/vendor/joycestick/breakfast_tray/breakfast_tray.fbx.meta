@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 29ea9b78713399f45b960f9e67216e4d
+timeCreated: 1493521214
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: __Milk_GEO
+    100002: __transform1
+    100004: BreadPlate_GRP
+    100006: //RootNode
+    100008: Cup_GEO
+    100010: Handle_GEO
+    100012: Jug_GEO
+    100014: MilkJug_GEO
+    100016: MilkJugHandle_GEO
+    100018: plate_GEO
+    100020: polySurface1
+    100022: Slice_Bread
+    100024: Slice_Bread1
+    100026: Slice_Bread2
+    100028: Spoon_GEO
+    100030: TeaCup_GRP
+    100032: Teapot_GEO
+    100034: Tray_GEO
+    100036: Tray_GRP
+    100038: TrayBar_GEO1
+    100040: TrayBar_GEO2
+    100042: TrayBar_GEO3
+    100044: TrayBar_GEO4
+    100046: TrayHandle_GEO
+    100048: TrayHandle_GEO1
+    400000: __Milk_GEO
+    400002: __transform1
+    400004: BreadPlate_GRP
+    400006: //RootNode
+    400008: Cup_GEO
+    400010: Handle_GEO
+    400012: Jug_GEO
+    400014: MilkJug_GEO
+    400016: MilkJugHandle_GEO
+    400018: plate_GEO
+    400020: polySurface1
+    400022: Slice_Bread
+    400024: Slice_Bread1
+    400026: Slice_Bread2
+    400028: Spoon_GEO
+    400030: TeaCup_GRP
+    400032: Teapot_GEO
+    400034: Tray_GEO
+    400036: Tray_GRP
+    400038: TrayBar_GEO1
+    400040: TrayBar_GEO2
+    400042: TrayBar_GEO3
+    400044: TrayBar_GEO4
+    400046: TrayHandle_GEO
+    400048: TrayHandle_GEO1
+    2300000: __Milk_GEO
+    2300002: Cup_GEO
+    2300004: Handle_GEO
+    2300006: Jug_GEO
+    2300008: MilkJugHandle_GEO
+    2300010: plate_GEO
+    2300012: polySurface1
+    2300014: Slice_Bread
+    2300016: Slice_Bread1
+    2300018: Slice_Bread2
+    2300020: Spoon_GEO
+    2300022: Teapot_GEO
+    2300024: Tray_GEO
+    2300026: TrayBar_GEO1
+    2300028: TrayBar_GEO2
+    2300030: TrayBar_GEO3
+    2300032: TrayBar_GEO4
+    2300034: TrayHandle_GEO
+    2300036: TrayHandle_GEO1
+    3300000: __Milk_GEO
+    3300002: Cup_GEO
+    3300004: Handle_GEO
+    3300006: Jug_GEO
+    3300008: MilkJugHandle_GEO
+    3300010: plate_GEO
+    3300012: polySurface1
+    3300014: Slice_Bread
+    3300016: Slice_Bread1
+    3300018: Slice_Bread2
+    3300020: Spoon_GEO
+    3300022: Teapot_GEO
+    3300024: Tray_GEO
+    3300026: TrayBar_GEO1
+    3300028: TrayBar_GEO2
+    3300030: TrayBar_GEO3
+    3300032: TrayBar_GEO4
+    3300034: TrayHandle_GEO
+    3300036: TrayHandle_GEO1
+    4300000: Tray_GEO
+    4300002: TrayBar_GEO1
+    4300004: TrayHandle_GEO
+    4300006: TrayBar_GEO2
+    4300008: TrayBar_GEO3
+    4300010: TrayHandle_GEO1
+    4300012: TrayBar_GEO4
+    4300014: Spoon_GEO
+    4300016: Jug_GEO
+    4300018: __Milk_GEO
+    4300020: MilkJugHandle_GEO
+    4300022: Teapot_GEO
+    4300024: Handle_GEO
+    4300026: Cup_GEO
+    4300028: Slice_Bread1
+    4300030: Slice_Bread2
+    4300032: polySurface1
+    4300034: Slice_Bread
+    4300036: plate_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
