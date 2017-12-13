@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 49e566ebc466e4a4a938bb0d6a5e39d3
+timeCreated: 1513122592
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cup_1
+    100002: cup_2
+    100004: cup_3
+    100006: cup_4
+    100008: //RootNode
+    100010: fork_1
+    100012: fork_2
+    100014: Knife_1
+    100016: Knife_2
+    100018: Napkin_1
+    100020: Napkin_2
+    100022: Napkin_3
+    100024: Napkin_4
+    100026: Napkin_5
+    100028: Napkin_6
+    100030: Napkin_7
+    100032: Plate_1q
+    100034: Plate_2
+    100036: Plate_3
+    100038: Plate_4
+    100040: Plate_5
+    100042: set_1
+    100044: set_2
+    100046: set_3
+    100048: set_4
+    100050: set_5
+    100052: set_6
+    100054: set_7
+    100056: spoon_1
+    100058: spoon_2
+    100060: Wine_1
+    100062: Wine_1 1
+    100064: Wine_2
+    100066: Wine_2 1
+    100068: wine_label_1
+    100070: wine_label_2
+    100072: wineglass_1
+    100074: wineglass_2
+    100076: wineglass_3
+    100078: wineglass_4
+    100080: wineglass_5
+    100082: wineglass_6
+    100084: wineglass_7
+    400000: cup_1
+    400002: cup_2
+    400004: cup_3
+    400006: cup_4
+    400008: //RootNode
+    400010: fork_1
+    400012: fork_2
+    400014: Knife_1
+    400016: Knife_2
+    400018: Napkin_1
+    400020: Napkin_2
+    400022: Napkin_3
+    400024: Napkin_4
+    400026: Napkin_5
+    400028: Napkin_6
+    400030: Napkin_7
+    400032: Plate_1q
+    400034: Plate_2
+    400036: Plate_3
+    400038: Plate_4
+    400040: Plate_5
+    400042: set_1
+    400044: set_2
+    400046: set_3
+    400048: set_4
+    400050: set_5
+    400052: set_6
+    400054: set_7
+    400056: spoon_1
+    400058: spoon_2
+    400060: Wine_1
+    400062: Wine_1 1
+    400064: Wine_2
+    400066: Wine_2 1
+    400068: wine_label_1
+    400070: wine_label_2
+    400072: wineglass_1
+    400074: wineglass_2
+    400076: wineglass_3
+    400078: wineglass_4
+    400080: wineglass_5
+    400082: wineglass_6
+    400084: wineglass_7
+    2300000: cup_1
+    2300002: cup_2
+    2300004: cup_3
+    2300006: cup_4
+    2300008: fork_1
+    2300010: fork_2
+    2300012: Knife_1
+    2300014: Knife_2
+    2300016: Napkin_1
+    2300018: Napkin_2
+    2300020: Napkin_3
+    2300022: Napkin_4
+    2300024: Napkin_5
+    2300026: Napkin_6
+    2300028: Napkin_7
+    2300030: Plate_1q
+    2300032: Plate_2
+    2300034: Plate_3
+    2300036: Plate_4
+    2300038: Plate_5
+    2300040: spoon_1
+    2300042: spoon_2
+    2300044: Wine_1 1
+    2300046: Wine_2 1
+    2300048: wine_label_1
+    2300050: wine_label_2
+    2300052: wineglass_1
+    2300054: wineglass_2
+    2300056: wineglass_3
+    2300058: wineglass_4
+    2300060: wineglass_5
+    2300062: wineglass_6
+    2300064: wineglass_7
+    3300000: cup_1
+    3300002: cup_2
+    3300004: cup_3
+    3300006: cup_4
+    3300008: fork_1
+    3300010: fork_2
+    3300012: Knife_1
+    3300014: Knife_2
+    3300016: Napkin_1
+    3300018: Napkin_2
+    3300020: Napkin_3
+    3300022: Napkin_4
+    3300024: Napkin_5
+    3300026: Napkin_6
+    3300028: Napkin_7
+    3300030: Plate_1q
+    3300032: Plate_2
+    3300034: Plate_3
+    3300036: Plate_4
+    3300038: Plate_5
+    3300040: spoon_1
+    3300042: spoon_2
+    3300044: Wine_1 1
+    3300046: Wine_2 1
+    3300048: wine_label_1
+    3300050: wine_label_2
+    3300052: wineglass_1
+    3300054: wineglass_2
+    3300056: wineglass_3
+    3300058: wineglass_4
+    3300060: wineglass_5
+    3300062: wineglass_6
+    3300064: wineglass_7
+    4300000: wineglass_1
+    4300002: Plate_2
+    4300004: Napkin_1
+    4300006: spoon_1
+    4300008: Plate_1q
+    4300010: Knife_1
+    4300012: wineglass_2
+    4300014: fork_1
+    4300016: Napkin_2
+    4300018: Plate_3
+    4300020: wineglass_3
+    4300022: Napkin_3
+    4300024: spoon_2
+    4300026: Plate_4
+    4300028: fork_2
+    4300030: Knife_2
+    4300032: wineglass_4
+    4300034: Napkin_4
+    4300036: cup_1
+    4300038: cup_2
+    4300040: cup_4
+    4300042: cup_3
+    4300044: Napkin_5
+    4300046: Plate_5
+    4300048: Napkin_6
+    4300050: wineglass_5
+    4300052: wineglass_6
+    4300054: Napkin_7
+    4300056: Wine_1
+    4300058: wine_label_1
+    4300060: wine_label_2
+    4300062: Wine_2
+    4300064: wineglass_7
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

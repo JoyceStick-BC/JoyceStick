@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 7ccafb5af6c299d4c83ea1cecaf5c709
+timeCreated: 1493568358
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Circle298
+    100002: Circle299
+    100004: Circle300
+    100006: Circle323
+    100008: Circle324
+    100010: Circle325
+    100012: Loft607
+    100014: Loft608
+    100016: Loft609
+    100018: Loft610
+    100020: Loft611
+    100022: Loft612
+    100024: Loft613
+    100026: Loft614
+    100028: Loft641
+    100030: Loft642
+    100032: Loft643
+    100034: Loft644
+    100036: Viennese bar chair
+    100038: Viennese chair
+    100040: //RootNode
+    400000: Circle298
+    400002: Circle299
+    400004: Circle300
+    400006: Circle323
+    400008: Circle324
+    400010: Circle325
+    400012: Loft607
+    400014: Loft608
+    400016: Loft609
+    400018: Loft610
+    400020: Loft611
+    400022: Loft612
+    400024: Loft613
+    400026: Loft614
+    400028: Loft641
+    400030: Loft642
+    400032: Loft643
+    400034: Loft644
+    400036: Viennese bar chair
+    400038: Viennese chair
+    400040: //RootNode
+    2300000: Circle298
+    2300002: Circle299
+    2300004: Circle300
+    2300006: Circle323
+    2300008: Circle324
+    2300010: Circle325
+    2300012: Loft607
+    2300014: Loft608
+    2300016: Loft609
+    2300018: Loft610
+    2300020: Loft611
+    2300022: Loft612
+    2300024: Loft613
+    2300026: Loft614
+    2300028: Loft641
+    2300030: Loft642
+    2300032: Loft643
+    2300034: Loft644
+    3300000: Circle298
+    3300002: Circle299
+    3300004: Circle300
+    3300006: Circle323
+    3300008: Circle324
+    3300010: Circle325
+    3300012: Loft607
+    3300014: Loft608
+    3300016: Loft609
+    3300018: Loft610
+    3300020: Loft611
+    3300022: Loft612
+    3300024: Loft613
+    3300026: Loft614
+    3300028: Loft641
+    3300030: Loft642
+    3300032: Loft643
+    3300034: Loft644
+    4300000: Loft614
+    4300002: Loft608
+    4300004: Circle300
+    4300006: Circle299
+    4300008: Circle298
+    4300010: Loft642
+    4300012: Loft644
+    4300014: Circle325
+    4300016: Circle324
+    4300018: Circle323
+    4300020: Loft643
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
