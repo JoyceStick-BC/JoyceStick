@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{462EA06F-1B65-4604-B35A-B69E3C23B161}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{462EA06F-1B65-4604-B35A-B69E3C23B161}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{462EA06F-1B65-4604-B35A-B69E3C23B161}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Aeolus_Events" ID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

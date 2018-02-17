@@ -1,6 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Wind_Container" ID="{18ED1E3A-52B8-4BD8-B18B-95B77339B604}" ShortID="127649077">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wind_low" ID="{F6496CDD-0EF3-4843-A07A-219F0AAAD115}" ShortID="394921595">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HRCK Drone Wind - Low Gentle Storm" ID="{74304A1C-1DFF-41AE-B8CC-83937951B7B6}" ShortID="43666910">
+									<Language>SFX</Language>
+									<AudioFile>HRCK Drone Wind - Low Gentle Storm.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="VDG_180217_Joycestick_SD_windLow" ID="{F8F196F0-FC89-42BD-8452-4318D0C8E0D4}" ShortID="222364091">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>VDG_180217_Joycestick_SD_windLow.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VDG_180217_Joycestick_SD_windLow" ID="{F8F196F0-FC89-42BD-8452-4318D0C8E0D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wind_Medium" ID="{5C6EF3E5-925B-4F81-816C-AC12C1985E58}" ShortID="792460625">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elemental - Wind Cast Twister_1" ID="{3F3ED68B-688E-4078-B42F-86897FFF3E28}" ShortID="612949158">
+									<Language>SFX</Language>
+									<AudioFile>Elemental - Wind Cast Twister_1.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="VDG_180217_Joycestick_SD_windMed" ID="{67D93071-4F1A-4A67-8EFB-0B3C0C5D4AE0}" ShortID="605938957">
+									<Language>SFX</Language>
+									<AudioFile>VDG_180217_Joycestick_SD_windMed.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="VDG_180217_Joycestick_SD_windHigh" ID="{E3906847-ECAC-4981-A424-6F49F6AA6BA3}" ShortID="192057793">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>VDG_180217_Joycestick_SD_windHigh.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VDG_180217_Joycestick_SD_windHigh" ID="{E3906847-ECAC-4981-A424-6F49F6AA6BA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wind_High" ID="{837E18F1-4CAB-49F7-B0B2-5767989F2A20}" ShortID="106955991">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elemental - Wind Cast Twister 2 Long" ID="{5831A630-AAB6-41CA-B562-108D3EF81E0A}" ShortID="925664597">
+									<Language>SFX</Language>
+									<AudioFile>Elemental - Wind Cast Twister 2 Long.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="VDG_180217_Joycestick_SD_windHigh1" ID="{5F4C82C7-1205-40D2-9A41-D6FF620FAD04}" ShortID="1018325287">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>VDG_180217_Joycestick_SD_windHigh1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VDG_180217_Joycestick_SD_windHigh1" ID="{5F4C82C7-1205-40D2-9A41-D6FF620FAD04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="Wind" ID="{2D8218D2-4B4E-4FE3-9C7F-36313FED23F2}" ShortID="680612751">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2F3F4D03-26B6-4271-8FA1-F20F5BEDA6AF}" ShortID="789125729">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind_Velocity" ID="{F8D31583-1A45-4C5F-8A64-061F83438510}" WorkUnitID="{33285182-151A-4789-A804-B6D2325E1973}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2EBAF8B8-7368-491B-86FF-E93F6E41A321}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-1.89951</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Wind_Velocity" ID="{F8D31583-1A45-4C5F-8A64-061F83438510}" WorkUnitID="{33285182-151A-4789-A804-B6D2325E1973}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Wind_Medium" ID="{5C6EF3E5-925B-4F81-816C-AC12C1985E58}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>7.91015213851109</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Wind_High" ID="{837E18F1-4CAB-49F7-B0B2-5767989F2A20}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>3.09313154974946</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>17.6382406853973</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Wind_low" ID="{F6496CDD-0EF3-4843-A07A-219F0AAAD115}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>10.1407460540444</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>20</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

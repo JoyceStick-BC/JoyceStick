@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9990F58E-50B3-4294-9113-4B4602ABF353}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{9990F58E-50B3-4294-9113-4B4602ABF353}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9990F58E-50B3-4294-9113-4B4602ABF353}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AudioTest" ID="{C8B7143D-201D-40A2-8293-507D2DA8A7AC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Aeolus_MX_P1" ID="{61B66CA0-4EE8-431E-9831-F2642B10D5FD}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Aeolus_MX_P2" ID="{1EDE2AF5-7D72-48C3-BCA5-338B7C7F17E0}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Aeolus_StopAll" ID="{637199A7-BD9E-4CF8-8973-34E0F2F6CF36}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Aeolus_SFX_Wind" ID="{E80F1750-56E8-4EA2-A6F7-62A23C542E72}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Aeolus_Start" ID="{8DF71C25-5B87-4FB7-A511-50BD028342CB}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

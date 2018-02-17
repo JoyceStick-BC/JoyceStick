@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" SchemaVersion="85" RootDocumentID="{462EA06F-1B65-4604-B35A-B69E3C23B161}">
+	<Events>
+		<WorkUnit Name="Aeolus_Events" ID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" OwnerID="{462EA06F-1B65-4604-B35A-B69E3C23B161}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Aeolus_MX_P2" ID="{1EDE2AF5-7D72-48C3-BCA5-338B7C7F17E0}">
+					<ChildrenList>
+						<Action Name="" ID="{FA471E8A-728C-495F-B21E-69CD596A6120}" ShortID="65883943">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_State_Phase2" ID="{E4169D09-3FB8-4EC3-B4C8-16F32E83B641}" WorkUnitID="{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Aeolus_Start" ID="{8DF71C25-5B87-4FB7-A511-50BD028342CB}">
+					<ChildrenList>
+						<Action Name="" ID="{4D1091F0-2924-4E99-8FBF-A3ADD3625A13}" ShortID="29461704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Aeolus_MX" ID="{F478C783-2F81-4FE2-A14E-5001271E5119}" WorkUnitID="{9A09FB8C-8CEE-4A9E-9DE2-2016115A68CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3028BA34-3AE8-481D-B96A-61AF8275314F}" ShortID="117084376">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_State_Phase1" ID="{CCD9BBC0-0F0C-4886-8244-82D774E9AB42}" WorkUnitID="{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Aeolus_MX_P1" ID="{61B66CA0-4EE8-431E-9831-F2642B10D5FD}">
+					<ChildrenList>
+						<Action Name="" ID="{02C33F0C-5511-48DB-874F-F62F27E10663}" ShortID="371223719">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_State_Phase1" ID="{CCD9BBC0-0F0C-4886-8244-82D774E9AB42}" WorkUnitID="{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Aeolus_StopAll" ID="{637199A7-BD9E-4CF8-8973-34E0F2F6CF36}">
+					<ChildrenList>
+						<Action Name="" ID="{F93CE556-EB1E-4170-9606-1CF0EB4B5274}" ShortID="153466233">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Aeolus_SFX_Wind" ID="{E80F1750-56E8-4EA2-A6F7-62A23C542E72}">
+					<ChildrenList>
+						<Action Name="" ID="{1891E404-462D-48BB-A9AE-851962B78E7D}" ShortID="103693325">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind_Container" ID="{18ED1E3A-52B8-4BD8-B18B-95B77339B604}" WorkUnitID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
