@@ -2,15 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	973298338	Aeolus_StopAll			\Default Work Unit\Aeolus_Events\Aeolus_StopAll	
 	2560638499	Aeolus_Start			\Default Work Unit\Aeolus_Events\Aeolus_Start	
 	2954220984	Aeolus_MX_P1			\Default Work Unit\Aeolus_Events\Aeolus_MX_P1	
-	2954220987	Aeolus_MX_P2			\Default Work Unit\Aeolus_Events\Aeolus_MX_P2	
-	4171324287	Aeolus_SFX_Wind			\Default Work Unit\Aeolus_Events\Aeolus_SFX_Wind	
-
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	173008787	Wind_Velocity			\Default Work Unit\Wind_Velocity	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	192057793	Wind_Medium	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\VDG_180217_Joycestick_SD_windHigh_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind_Container\Wind_Medium		3648064
-	222364091	Wind_low	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\VDG_180217_Joycestick_SD_windLow_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind_Container\Wind_low		17472064
 	226835659	Combat_P1_L1_V2_1	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\Combat_P1_L1_V2_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Aeolus\Aeolus_MX\Aeolus_MX_P2\Aeolus_MX_P2_L1\Combat_P1_L1_V2_1		2832064
 	380535786	Combat_P1_L3_V2_1	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\Combat_P1_L3_V2_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Aeolus\Aeolus_MX\Aeolus_MX_P2\Aeolus_MX_P2_L1\Combat_P1_L3_V2_1		2832064
 	421779993	Xplor_Danger_P1_L3_V1_4	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\Xplor_Danger_P1_L3_V1_4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Aeolus\Aeolus_MX\Aeolus_MX_P1\Aeolus_MX_P1_L1\Xplor_Danger_P1_L3_V1_4		3945328
@@ -21,5 +14,4 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	817218415	Xplor_Danger_P1_L1_V1_4	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\Xplor_Danger_P1_L1_V1_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Aeolus\Aeolus_MX\Aeolus_MX_P1\Aeolus_MX_P1_L1\Xplor_Danger_P1_L1_V1_4		3949780
 	882127834	Xplor_Danger_P1_L2_V1_4	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\Xplor_Danger_P1_L2_V1_4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Aeolus\Aeolus_MX\Aeolus_MX_P1\Aeolus_MX_P1_L1\Xplor_Danger_P1_L2_V1_4		3117800
 	964661975	Xplor_Danger_P1_L2_V1_4	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\Xplor_Danger_P1_L2_V1_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Aeolus\Aeolus_MX\Aeolus_MX_P1\Aeolus_MX_P1_L1\Xplor_Danger_P1_L2_V1_4		2962352
-	1018325287	Wind_High	Y:\Documents\_VDG\VDG_180203_JoyceStick\JoyceStick\JoyceStick_WwiseProject\.cache\Mac\SFX\VDG_180217_Joycestick_SD_windHigh1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind_Container\Wind_High		3168064
 

@@ -25,7 +25,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Wind_Velocity" ID="{F8D31583-1A45-4C5F-8A64-061F83438510}"/>
-							<Value>20</Value>
+							<Value>0.143163922691483</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

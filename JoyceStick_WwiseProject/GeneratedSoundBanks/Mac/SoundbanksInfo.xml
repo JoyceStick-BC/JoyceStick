@@ -22,20 +22,10 @@
 			<Path>AudioTest.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2954220984" Name="Aeolus_MX_P1" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_MX_P1" MaxAttenuation="0.000000"/>
-				<Event Id="2954220987" Name="Aeolus_MX_P2" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_MX_P2" MaxAttenuation="0.000000"/>
-				<Event Id="4171324287" Name="Aeolus_SFX_Wind" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_SFX_Wind"/>
 				<Event Id="2560638499" Name="Aeolus_Start" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_Start"/>
 				<Event Id="973298338" Name="Aeolus_StopAll" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_StopAll" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="192057793" Language="SFX">
-					<ShortName>VDG_180217_Joycestick_SD_windHigh.wav</ShortName>
-					<Path>SFX/VDG_180217_Joycestick_SD_windHigh_F17FB28C.wem</Path>
-				</File>
-				<File Id="222364091" Language="SFX">
-					<ShortName>VDG_180217_Joycestick_SD_windLow.wav</ShortName>
-					<Path>SFX/VDG_180217_Joycestick_SD_windLow_F17FB28C.wem</Path>
-				</File>
 				<File Id="226835659" Language="SFX">
 					<ShortName>Combat_P1_L1_V2_1.wav</ShortName>
 					<Path>SFX/Combat_P1_L1_V2_1_F17FB28C.wem</Path>
@@ -75,6 +65,25 @@
 				<File Id="964661975" Language="SFX">
 					<ShortName>Xplor_Danger_P1_L2_V1_1.wav</ShortName>
 					<Path>SFX/Xplor_Danger_P1_L2_V1_1_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4037604477" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\AudioTest2</ObjectPath>
+			<ShortName>AudioTest2</ShortName>
+			<Path>AudioTest2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2954220987" Name="Aeolus_MX_P2" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_MX_P2" MaxAttenuation="0.000000"/>
+				<Event Id="4171324287" Name="Aeolus_SFX_Wind" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_SFX_Wind" MaxAttenuation="100.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="192057793" Language="SFX">
+					<ShortName>VDG_180217_Joycestick_SD_windHigh.wav</ShortName>
+					<Path>SFX/VDG_180217_Joycestick_SD_windHigh_F17FB28C.wem</Path>
+				</File>
+				<File Id="222364091" Language="SFX">
+					<ShortName>VDG_180217_Joycestick_SD_windLow.wav</ShortName>
+					<Path>SFX/VDG_180217_Joycestick_SD_windLow_F17FB28C.wem</Path>
 				</File>
 				<File Id="1018325287" Language="SFX">
 					<ShortName>VDG_180217_Joycestick_SD_windHigh1.wav</ShortName>
