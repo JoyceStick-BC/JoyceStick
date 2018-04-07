@@ -27,12 +27,4 @@ public class AudioManager : MonoBehaviour {
 	public void SetRTPCValue (string rtpcName, float rtpcValue){
 		AkSoundEngine.SetRTPCValue (rtpcName ,rtpcValue);
 	}
-
-//	public void SetGameObjectPosition (GameObject objectToSet, Transform objectTransform){
-//		AkSoundEngine.SetObjectPosition (objectToSet, objectTransform);
-//	}
-
-//	public void SettingAttenuation (){
-//		AkSoundEngine.
-//	}
 }
