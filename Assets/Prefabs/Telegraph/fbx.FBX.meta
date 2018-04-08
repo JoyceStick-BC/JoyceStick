@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: cc3e40cd58a00044d92f491cab8dddc6
+timeCreated: 1523162745
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tk01
+    100004: tk02
+    100006: tk03
+    100008: tk04
+    100010: tk05
+    100012: tk06
+    100014: tk07
+    100016: tk08
+    100018: tk09
+    100020: tk10
+    100022: tk11
+    100024: tk12
+    100026: tk13
+    100028: tk14
+    100030: tk15
+    100032: tk16
+    100034: tk17
+    100036: tk18
+    100038: tk19
+    100040: tk20
+    100042: tk21
+    100044: tk22
+    100046: tk23
+    100048: tk24
+    100050: tk25
+    100052: tk26
+    100054: tk27
+    100056: tk28
+    100058: tk29
+    100060: tk30
+    100062: tk31
+    100064: tk32
+    400000: //RootNode
+    400002: tk01
+    400004: tk02
+    400006: tk03
+    400008: tk04
+    400010: tk05
+    400012: tk06
+    400014: tk07
+    400016: tk08
+    400018: tk09
+    400020: tk10
+    400022: tk11
+    400024: tk12
+    400026: tk13
+    400028: tk14
+    400030: tk15
+    400032: tk16
+    400034: tk17
+    400036: tk18
+    400038: tk19
+    400040: tk20
+    400042: tk21
+    400044: tk22
+    400046: tk23
+    400048: tk24
+    400050: tk25
+    400052: tk26
+    400054: tk27
+    400056: tk28
+    400058: tk29
+    400060: tk30
+    400062: tk31
+    400064: tk32
+    2300000: tk01
+    2300002: tk02
+    2300004: tk03
+    2300006: tk04
+    2300008: tk05
+    2300010: tk06
+    2300012: tk07
+    2300014: tk08
+    2300016: tk09
+    2300018: tk10
+    2300020: tk11
+    2300022: tk12
+    2300024: tk13
+    2300026: tk14
+    2300028: tk16
+    2300030: tk17
+    2300032: tk18
+    2300034: tk19
+    2300036: tk21
+    2300038: tk22
+    2300040: tk23
+    2300042: tk24
+    2300044: tk25
+    2300046: tk26
+    2300048: tk27
+    2300050: tk28
+    2300052: tk29
+    2300054: tk30
+    2300056: tk31
+    2300058: tk32
+    3300000: tk01
+    3300002: tk02
+    3300004: tk03
+    3300006: tk04
+    3300008: tk05
+    3300010: tk06
+    3300012: tk07
+    3300014: tk08
+    3300016: tk09
+    3300018: tk10
+    3300020: tk11
+    3300022: tk12
+    3300024: tk13
+    3300026: tk14
+    3300028: tk16
+    3300030: tk17
+    3300032: tk18
+    3300034: tk19
+    3300036: tk21
+    3300038: tk22
+    3300040: tk23
+    3300042: tk24
+    3300044: tk25
+    3300046: tk26
+    3300048: tk27
+    3300050: tk28
+    3300052: tk29
+    3300054: tk30
+    3300056: tk31
+    3300058: tk32
+    4300000: tk01
+    4300002: tk02
+    4300004: tk03
+    4300006: tk04
+    4300008: tk05
+    4300010: tk06
+    4300012: tk07
+    4300014: tk08
+    4300016: tk09
+    4300018: tk10
+    4300020: tk11
+    4300022: tk12
+    4300024: tk13
+    4300026: tk14
+    4300028: tk16
+    4300030: tk17
+    4300032: tk18
+    4300034: tk19
+    4300036: tk21
+    4300038: tk22
+    4300040: tk23
+    4300042: tk24
+    4300044: tk25
+    4300046: tk26
+    4300048: tk27
+    4300050: tk28
+    4300052: tk29
+    4300054: tk30
+    4300056: tk31
+    4300058: tk32
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
