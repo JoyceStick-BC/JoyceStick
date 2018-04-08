@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C81A7123-40BD-41F2-A225-4431FF4D1185}" SchemaVersion="85" RootDocumentID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}">
+	<AudioObjects>
+		<WorkUnit Name="SandBox" ID="{C81A7123-40BD-41F2-A225-4431FF4D1185}" OwnerID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="JoyceStick" ID="{EAFA449A-6973-4AA4-8611-EA6A2E47385F}" ShortID="440821192">
+					<ChildrenList>
+						<Folder Name="Ambiance" ID="{C15F34CA-0160-41E8-B84F-AC5B8C2971E1}" ShortID="906207392"/>
+						<Folder Name="Objects" ID="{DAC7DE17-9639-47E2-98BC-C28CBD3E9898}" ShortID="174261613">
+							<ChildrenList>
+								<SwitchContainer Name="Books" ID="{97A67156-7060-46CE-B88C-904DC4BDAFA6}" ShortID="646479449">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<GroupingInfo/>
+								</SwitchContainer>
+								<SwitchContainer Name="Cane" ID="{3F0D4225-1B35-4AF1-A180-EFE381D8913C}" ShortID="382588627">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<GroupingInfo/>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

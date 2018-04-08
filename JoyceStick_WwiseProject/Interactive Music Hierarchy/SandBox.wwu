@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0852ADD-E1FB-4D97-9D0D-ED2A37CCECBB}" SchemaVersion="85" RootDocumentID="{36DDECAC-FA79-4ACF-88A6-B774BD1426A6}">
+	<InteractiveMusic>
+		<WorkUnit Name="SandBox" ID="{E0852ADD-E1FB-4D97-9D0D-ED2A37CCECBB}" OwnerID="{36DDECAC-FA79-4ACF-88A6-B774BD1426A6}" PersistMode="Nested"/>
+	</InteractiveMusic>
+</WwiseDocument>

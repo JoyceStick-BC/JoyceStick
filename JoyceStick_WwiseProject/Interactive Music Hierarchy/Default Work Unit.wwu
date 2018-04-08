@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{36DDECAC-FA79-4ACF-88A6-B774BD1426A6}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Aeolus" ID="{9A09FB8C-8CEE-4A9E-9DE2-2016115A68CB}" PersistMode="Reference"/>
+				<WorkUnit Name="SandBox" ID="{E0852ADD-E1FB-4D97-9D0D-ED2A37CCECBB}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

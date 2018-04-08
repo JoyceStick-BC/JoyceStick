@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 2b436c7516a6700418d3aecc92dd2fc8
+timeCreated: 1523131009
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: door_GEO
+    100002: door_GRP
+    100004: door_handle_GEO
+    100006: door_handle_plate_GEO
+    100008: fire_place_GRP
+    100010: floor_GEO
+    100012: fp_arch_GEO
+    100014: fp_barA_GEO_01
+    100016: fp_barA_GEO_02
+    100018: fp_barA_GEO_03
+    100020: fp_barA_GEO_04
+    100022: fp_barA_GEO_05
+    100024: fp_barB_GEO_01
+    100026: fp_barB_GEO_02
+    100028: fp_bars_GRP
+    100030: fp_pillars_GEO
+    100032: fp_top_GEO
+    100034: fp_wall_GEO
+    100036: fp_wallB_GEO
+    100038: key_hole_GEO
+    100040: room_GEO
+    100042: //RootNode
+    100044: stairs_GEO
+    400000: door_GEO
+    400002: door_GRP
+    400004: door_handle_GEO
+    400006: door_handle_plate_GEO
+    400008: fire_place_GRP
+    400010: floor_GEO
+    400012: fp_arch_GEO
+    400014: fp_barA_GEO_01
+    400016: fp_barA_GEO_02
+    400018: fp_barA_GEO_03
+    400020: fp_barA_GEO_04
+    400022: fp_barA_GEO_05
+    400024: fp_barB_GEO_01
+    400026: fp_barB_GEO_02
+    400028: fp_bars_GRP
+    400030: fp_pillars_GEO
+    400032: fp_top_GEO
+    400034: fp_wall_GEO
+    400036: fp_wallB_GEO
+    400038: key_hole_GEO
+    400040: room_GEO
+    400042: //RootNode
+    400044: stairs_GEO
+    2300000: door_GEO
+    2300002: door_handle_GEO
+    2300004: door_handle_plate_GEO
+    2300006: floor_GEO
+    2300008: fp_arch_GEO
+    2300010: fp_barA_GEO_01
+    2300012: fp_barA_GEO_02
+    2300014: fp_barA_GEO_03
+    2300016: fp_barA_GEO_04
+    2300018: fp_barA_GEO_05
+    2300020: fp_barB_GEO_01
+    2300022: fp_barB_GEO_02
+    2300024: fp_pillars_GEO
+    2300026: fp_top_GEO
+    2300028: fp_wall_GEO
+    2300030: fp_wallB_GEO
+    2300032: key_hole_GEO
+    2300034: room_GEO
+    2300036: stairs_GEO
+    3300000: door_GEO
+    3300002: door_handle_GEO
+    3300004: door_handle_plate_GEO
+    3300006: floor_GEO
+    3300008: fp_arch_GEO
+    3300010: fp_barA_GEO_01
+    3300012: fp_barA_GEO_02
+    3300014: fp_barA_GEO_03
+    3300016: fp_barA_GEO_04
+    3300018: fp_barA_GEO_05
+    3300020: fp_barB_GEO_01
+    3300022: fp_barB_GEO_02
+    3300024: fp_pillars_GEO
+    3300026: fp_top_GEO
+    3300028: fp_wall_GEO
+    3300030: fp_wallB_GEO
+    3300032: key_hole_GEO
+    3300034: room_GEO
+    3300036: stairs_GEO
+    4300000: floor_GEO
+    4300002: key_hole_GEO
+    4300004: door_handle_plate_GEO
+    4300006: door_handle_GEO
+    4300008: door_GEO
+    4300010: stairs_GEO
+    4300012: room_GEO
+    4300014: fp_pillars_GEO
+    4300016: fp_wall_GEO
+    4300018: fp_arch_GEO
+    4300020: fp_wallB_GEO
+    4300022: fp_top_GEO
+    4300024: fp_barA_GEO_01
+    4300026: fp_barA_GEO_02
+    4300028: fp_barA_GEO_03
+    4300030: fp_barA_GEO_04
+    4300032: fp_barA_GEO_05
+    4300034: fp_barB_GEO_01
+    4300036: fp_barB_GEO_02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
