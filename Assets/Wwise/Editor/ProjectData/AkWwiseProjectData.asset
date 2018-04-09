@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Aeolus_Events.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{DF9D76A5-2210-4071-88B9-63EE7D73C458}'
-    m_lastTimePsrt1: -1694390450
-    m_lastTimePart2: -1999266629
+    m_lastTimePsrt1: -564588942
+    m_lastTimePart2: -1999266338
     List:
     - Name: Aeolus_MX_P1
       Path: Default Work Unit\Aeolus_Events\Aeolus_MX_P1
@@ -92,22 +92,22 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{462EA06F-1B65-4604-B35A-B69E3C23B161}'
-    m_lastTimePsrt1: 792815818
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -564583937
+    m_lastTimePart2: -1999266338
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{41FD3CDB-5256-4864-812B-484C01242B3C}'
-    m_lastTimePsrt1: 802275978
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -559348808
+    m_lastTimePart2: -1999266338
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}'
-    m_lastTimePsrt1: 826851348
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -546966786
+    m_lastTimePart2: -1999266338
     List:
     - Name: Player_State
       Path: Default Work Unit\Player_State
@@ -138,15 +138,15 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}'
-    m_lastTimePsrt1: 826861380
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -546966786
+    m_lastTimePart2: -1999266338
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9990F58E-50B3-4294-9113-4B4602ABF353}'
-    m_lastTimePsrt1: 826826277
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -546976796
+    m_lastTimePart2: -1999266338
     List:
     - Name: AudioTest
       Path: Default Work Unit\AudioTest
@@ -161,8 +161,8 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{33285182-151A-4789-A804-B6D2325E1973}'
-    m_lastTimePsrt1: 792825849
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -564583937
+    m_lastTimePart2: -1999266338
     List:
     - Name: Wind_Velocity
       Path: Default Work Unit\Wind_Velocity
@@ -177,15 +177,15 @@ MonoBehaviour:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2B8F93FF-2C95-4787-B4AE-C498BAD0D63C}'
-    m_lastTimePsrt1: 826871394
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -546961784
+    m_lastTimePart2: -1999266338
     List: []
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{DACC96C7-D915-4F78-A359-EC8E955B28CF}'
-    m_lastTimePsrt1: 826886444
-    m_lastTimePart2: -1999266695
+    m_lastTimePsrt1: -546806645
+    m_lastTimePart2: -1999266338
     List: []
   ExpandedItems:
   - /JoyceStick_WwiseProject
