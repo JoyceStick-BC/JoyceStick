@@ -11,7 +11,20 @@
 				<Event Name="sfx_Mat_Leather" ID="{FD4D65E4-2694-414E-BB5D-111DD354EF5B}"/>
 				<Event Name="sfx_Mat_Cloth" ID="{23E802D9-D90D-4AAD-B5A7-E916FBA55AA4}"/>
 				<Event Name="sfx_MedalClose" ID="{DCE2251F-9798-4BC1-A908-4D07741B09ED}"/>
-				<Event Name="sfx_Clock" ID="{7F084AEF-F934-4BFC-AF46-D13412231EEB}"/>
+				<Event Name="sfx_Clock" ID="{7F084AEF-F934-4BFC-AF46-D13412231EEB}">
+					<ChildrenList>
+						<Action Name="" ID="{9AEA0261-2C43-4DEA-A966-D5B67A9660CE}" ShortID="918070792">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock" ID="{9AC07E3B-1F84-42B6-9A06-46EB6B1DC7F0}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="sfx_Book" ID="{FBBE80BF-F339-410E-AFD6-3FDAB15D5263}"/>
 				<Event Name="sfx_Fire" ID="{9F89AE96-69BF-4F76-A527-ED97B3608F3C}"/>
 				<Event Name="sfx_TelegraphClick" ID="{065A33F8-9C01-4A4A-81B0-BEECC76CF731}"/>
