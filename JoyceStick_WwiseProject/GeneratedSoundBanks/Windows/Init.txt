@@ -1,6 +1,9 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	222378406	SandBox			\Default Work Unit\Master Audio Bus\SandBox	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SandBox\SFX	
+	527871411	2D			\Default Work Unit\Master Audio Bus\SandBox\Ambiance\2D	
+	1034652824	Ambisonic			\Default Work Unit\Master Audio Bus\SandBox\Ambiance\Ambisonic	
+	2981377429	Ambiance			\Default Work Unit\Master Audio Bus\SandBox\Ambiance	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

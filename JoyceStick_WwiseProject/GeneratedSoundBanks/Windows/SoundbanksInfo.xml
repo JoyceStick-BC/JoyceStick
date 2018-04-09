@@ -16,43 +16,131 @@
 			<ShortName>SandBox</ShortName>
 			<Path>SandBox.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1622948446" Name="sfx_Book" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Book"/>
-				<Event Id="1180717529" Name="sfx_Clock" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Clock"/>
-				<Event Id="2540328137" Name="sfx_Fire" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Fire"/>
-				<Event Id="3983679968" Name="sfx_Mat_Cloth" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Cloth"/>
-				<Event Id="207091779" Name="sfx_Mat_Leather" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Leather"/>
-				<Event Id="685381719" Name="sfx_Mat_Rock" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Rock"/>
-				<Event Id="3838141635" Name="sfx_Mat_Wood" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Wood"/>
-				<Event Id="3611340562" Name="sfx_MedalClose" ObjectPath="\Events\Default Work Unit\SandBox\sfx_MedalClose"/>
-				<Event Id="4216639430" Name="sfx_SetVelocity_Hard" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Hard"/>
-				<Event Id="449648328" Name="sfx_SetVelocity_Medium" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Medium"/>
-				<Event Id="2632764025" Name="sfx_SetVelocity_Soft" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Soft"/>
-				<Event Id="2456440797" Name="sfx_TelegraphClick" ObjectPath="\Events\Default Work Unit\SandBox\sfx_TelegraphClick"/>
+				<Event Id="2718434931" Name="amb_Sandbox" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\Amb\amb_Sandbox"/>
+				<Event Id="1180717529" Name="sfx_Clock" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Clock"/>
+				<Event Id="2540328137" Name="sfx_Fire" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Fire"/>
+				<Event Id="4117300191" Name="sfx_Imp_Book" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Book"/>
+				<Event Id="485926970" Name="sfx_Imp_Clock" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Clock"/>
+				<Event Id="771146620" Name="sfx_Imp_Cloth" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Cloth"/>
+				<Event Id="1804146695" Name="sfx_Imp_Frame" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Frame"/>
+				<Event Id="3526539070" Name="sfx_Imp_Guitar" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Guitar"/>
+				<Event Id="3931415527" Name="sfx_Imp_Leather" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Leather"/>
+				<Event Id="2905289089" Name="sfx_Imp_Metal" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Metal"/>
+				<Event Id="2914957998" Name="sfx_Imp_Paper" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Paper"/>
+				<Event Id="4231721163" Name="sfx_Imp_Rock" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Rock"/>
+				<Event Id="3618021940" Name="sfx_Imp_Telegraph" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Telegraph"/>
+				<Event Id="1230953279" Name="sfx_Imp_Wood" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Wood"/>
+				<Event Id="3006076750" Name="sfx_Medal" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Medal"/>
+				<Event Id="1216473977" Name="sfx_Mvnt_Paper" ObjectPath="\Events\Default Work Unit\SandBox\Sandbox\SFX\sfx_Mvnt_Paper"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="10811419" Language="SFX">
 					<ShortName>sfx_clock_03.wav</ShortName>
 					<Path>SFX\sfx_clock_03_1C9C67B2.wem</Path>
 				</File>
+				<File Id="19974505" Language="SFX">
+					<ShortName>sfx_MAT_Wood_Hard_03.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_Hard_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="66141390" Language="SFX">
+					<ShortName>sfx_MAT_Wood_Med_03.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_Med_03_1C9C67B2.wem</Path>
+				</File>
 				<File Id="159855840" Language="SFX">
 					<ShortName>sfx_clock_01.wav</ShortName>
 					<Path>SFX\sfx_clock_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="240116462" Language="SFX">
+					<ShortName>sfx_MAT_Wood_Med_01.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_Med_01_1C9C67B2.wem</Path>
 				</File>
 				<File Id="311773945" Language="SFX">
 					<ShortName>sfx_clock_05.wav</ShortName>
 					<Path>SFX\sfx_clock_05_1C9C67B2.wem</Path>
 				</File>
+				<File Id="315996988" Language="SFX">
+					<ShortName>sfx_MAT_rock_med_03.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_med_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="320268179" Language="SFX">
+					<ShortName>sfx_MAT_Wood_Hard_02.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_Hard_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="340989370" Language="SFX">
+					<ShortName>sfx_MAT_Wood_Hard_01.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_Hard_01_1C9C67B2.wem</Path>
+				</File>
 				<File Id="379568364" Language="SFX">
 					<ShortName>sfx_clock_06.wav</ShortName>
 					<Path>SFX\sfx_clock_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="448512554" Language="SFX">
+					<ShortName>sfx_MAT_rock_hard_04.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_hard_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="475323064" Language="SFX">
+					<ShortName>sfx_MAT_rock_soft_03.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_soft_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="639770298" Language="SFX">
+					<ShortName>sfx_MAT_rock_hard_02.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_hard_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="643865845" Language="SFX">
+					<ShortName>sfx_MAT_rock_soft_02.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_soft_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="714714579" Language="SFX">
+					<ShortName>sfx_MAT_rock_med_04.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_med_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="734648075" Language="SFX">
+					<ShortName>sfx_Fire.wav</ShortName>
+					<Path>SFX\sfx_Fire_F17FB28C.wem</Path>
+				</File>
+				<File Id="739094311" Language="SFX">
+					<ShortName>sfx_MAT_Wood_soft_02.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_soft_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="791065223" Language="SFX">
+					<ShortName>sfx_MAT_Wood_soft_01.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_soft_01_1C9C67B2.wem</Path>
 				</File>
 				<File Id="914896481" Language="SFX">
 					<ShortName>sfx_clock_02.wav</ShortName>
 					<Path>SFX\sfx_clock_02_1C9C67B2.wem</Path>
 				</File>
+				<File Id="941024312" Language="SFX">
+					<ShortName>sfx_MAT_rock_soft_04.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_soft_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="961005819" Language="SFX">
+					<ShortName>sfx_MAT_Wood_Med_02.wav</ShortName>
+					<Path>SFX\sfx_MAT_Wood_Med_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="973355850" Language="SFX">
+					<ShortName>sfx_MAT_rock_hard_03.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_hard_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="974097126" Language="SFX">
+					<ShortName>sfx_MAT_rock_med_02.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_med_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="981860684" Language="SFX">
+					<ShortName>sfx_MAT_rock_soft_01.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_soft_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="983875998" Language="SFX">
+					<ShortName>sfx_MAT_rock_med_01.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_med_01_1C9C67B2.wem</Path>
+				</File>
 				<File Id="1062535440" Language="SFX">
 					<ShortName>sfx_clock_04.wav</ShortName>
 					<Path>SFX\sfx_clock_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1065126318" Language="SFX">
+					<ShortName>sfx_MAT_rock_hard_01.wav</ShortName>
+					<Path>SFX\sfx_MAT_rock_hard_01_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

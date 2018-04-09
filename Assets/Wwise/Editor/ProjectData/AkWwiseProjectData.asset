@@ -22,30 +22,38 @@ MonoBehaviour:
   - PhysicalPath: Events\SandBox.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{24D24150-C0E8-4564-850A-5293844EB52A}'
-    m_lastTimePsrt1: 1502700125
-    m_lastTimePart2: -1999266262
+    m_lastTimePsrt1: 2028791861
+    m_lastTimePart2: -1999266235
     List:
-    - Name: sfx_Book
-      Path: Default Work Unit\SandBox\sfx_Book
+    - Name: amb_Sandbox
+      Path: Default Work Unit\SandBox\Sandbox\Amb\amb_Sandbox
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_Book
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: Amb
+        ObjectType: 4
+      - ElementName: amb_Sandbox
         ObjectType: 3
-      ID: 1622948446
-      Guid: bf80befb39f30e41afd63fdab15d5263
+      ID: -1576532365
+      Guid: aa1e24fea1c7c140939cae1d5d9219e0
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
     - Name: sfx_Clock
-      Path: Default Work Unit\SandBox\sfx_Clock
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Clock
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
       - ElementName: sfx_Clock
         ObjectType: 3
       ID: 1180717529
@@ -54,12 +62,16 @@ MonoBehaviour:
       maxDuration: 0
       maxAttenuation: 0
     - Name: sfx_Fire
-      Path: Default Work Unit\SandBox\sfx_Fire
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Fire
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
       - ElementName: sfx_Fire
         ObjectType: 3
       ID: -1754639159
@@ -67,69 +79,215 @@ MonoBehaviour:
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
-    - Name: sfx_Mat_Cloth
-      Path: Default Work Unit\SandBox\sfx_Mat_Cloth
+    - Name: sfx_Imp_Book
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Book
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_Mat_Cloth
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Book
         ObjectType: 3
-      ID: -311287328
+      ID: -177667105
+      Guid: bf80befb39f30e41afd63fdab15d5263
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Clock
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Clock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Clock
+        ObjectType: 3
+      ID: 485926970
+      Guid: e7fd7d571dbe4d4d92a1c530d003bb4e
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Cloth
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Cloth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Cloth
+        ObjectType: 3
+      ID: 771146620
       Guid: d902e8230dd9ad4ab5a7e916fba55aa4
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
-    - Name: sfx_Mat_Leather
-      Path: Default Work Unit\SandBox\sfx_Mat_Leather
+    - Name: sfx_Imp_Frame
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Frame
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_Mat_Leather
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Frame
         ObjectType: 3
-      ID: 207091779
+      ID: 1804146695
+      Guid: a21984e1f002144b85bb93a58597055a
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Guitar
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Guitar
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Guitar
+        ObjectType: 3
+      ID: -768428226
+      Guid: f29f3678c078344e95a4af279c1fd495
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Leather
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Leather
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Leather
+        ObjectType: 3
+      ID: -363551769
       Guid: e4654dfd94264e41bb5d111dd354ef5b
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
-    - Name: sfx_Mat_Rock
-      Path: Default Work Unit\SandBox\sfx_Mat_Rock
+    - Name: sfx_Imp_Metal
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Metal
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_Mat_Rock
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Metal
         ObjectType: 3
-      ID: 685381719
+      ID: -1389678207
+      Guid: 4a38e54596b2144fb35b5c344b256c35
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Paper
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Paper
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Paper
+        ObjectType: 3
+      ID: -1380009298
+      Guid: ddbaf8a2b8351e41bb0a28663a020347
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Rock
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Rock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Rock
+        ObjectType: 3
+      ID: -63246133
       Guid: 80ea48ce498f9a47a3e7aa1a83b28e56
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
-    - Name: sfx_Mat_Wood
-      Path: Default Work Unit\SandBox\sfx_Mat_Wood
+    - Name: sfx_Imp_Telegraph
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Telegraph
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_Mat_Wood
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Telegraph
         ObjectType: 3
-      ID: -456825661
+      ID: -676945356
+      Guid: f8335a06019c4a4a81b0beecc76cf731
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Imp_Wood
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Wood
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Imp_Wood
+        ObjectType: 3
+      ID: 1230953279
       Guid: 834314beebc16441b1b49cb633610bbd
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
     - Name: sfx_Medal
-      Path: Default Work Unit\SandBox\sfx_Medal
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Medal
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
       - ElementName: sfx_Medal
         ObjectType: 3
       ID: -1288890546
@@ -137,17 +295,21 @@ MonoBehaviour:
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
-    - Name: sfx_TelegraphClick
-      Path: Default Work Unit\SandBox\sfx_TelegraphClick
+    - Name: sfx_Mvnt_Paper
+      Path: Default Work Unit\SandBox\Sandbox\SFX\sfx_Mvnt_Paper
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_TelegraphClick
+      - ElementName: Sandbox
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: sfx_Mvnt_Paper
         ObjectType: 3
-      ID: -1838526499
-      Guid: f8335a06019c4a4a81b0beecc76cf731
+      ID: 1216473977
+      Guid: 64d31c1f4e42944d8b62fb44549eb082
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
@@ -155,8 +317,8 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{41FD3CDB-5256-4864-812B-484C01242B3C}'
-    m_lastTimePsrt1: 243131687
-    m_lastTimePart2: -1999266287
+    m_lastTimePsrt1: -1878857487
+    m_lastTimePart2: -1999266241
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -201,8 +363,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9990F58E-50B3-4294-9113-4B4602ABF353}'
-    m_lastTimePsrt1: 1260354031
-    m_lastTimePart2: -1999266262
+    m_lastTimePsrt1: -618610585
+    m_lastTimePart2: -1999266241
     List:
     - Name: SandBox
       Path: Default Work Unit\SandBox
@@ -245,6 +407,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /JoyceStick_WwiseProject
+  - /JoyceStick_WwiseProject/Events
+  - /JoyceStick_WwiseProject/Events/Default Work Unit
+  - /JoyceStick_WwiseProject/Events/Default Work Unit/SandBox
+  - /JoyceStick_WwiseProject/Events/Default Work Unit/SandBox/Sandbox
+  - /JoyceStick_WwiseProject/Events/Default Work Unit/SandBox/Sandbox/SFX
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

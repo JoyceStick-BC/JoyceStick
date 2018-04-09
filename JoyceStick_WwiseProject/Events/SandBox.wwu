@@ -124,6 +124,7 @@
 
 </Comment>
 								</Event>
+								<Event Name="sfx_Imp_Metal" ID="{45E5384A-B296-4F14-B35B-5C344B256C35}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Amb" ID="{12C8A782-90FA-452D-AC0A-AC01B0B77542}" ShortID="898527401">

@@ -1,22 +1,50 @@
 Event	ID	Name			Wwise Object Path	Notes
-	207091779	sfx_Mat_Leather			\Default Work Unit\SandBox\sfx_Mat_Leather	
-	449648328	sfx_SetVelocity_Medium			\Default Work Unit\SandBox\sfx_SetVelocity_Medium	
-	685381719	sfx_Mat_Rock			\Default Work Unit\SandBox\sfx_Mat_Rock	
-	1180717529	sfx_Clock			\Default Work Unit\SandBox\sfx_Clock	
-	1622948446	sfx_Book			\Default Work Unit\SandBox\sfx_Book	
-	2456440797	sfx_TelegraphClick			\Default Work Unit\SandBox\sfx_TelegraphClick	
-	2540328137	sfx_Fire			\Default Work Unit\SandBox\sfx_Fire	
-	2632764025	sfx_SetVelocity_Soft			\Default Work Unit\SandBox\sfx_SetVelocity_Soft	
-	3611340562	sfx_MedalClose			\Default Work Unit\SandBox\sfx_MedalClose	
-	3838141635	sfx_Mat_Wood			\Default Work Unit\SandBox\sfx_Mat_Wood	
-	3983679968	sfx_Mat_Cloth			\Default Work Unit\SandBox\sfx_Mat_Cloth	
-	4216639430	sfx_SetVelocity_Hard			\Default Work Unit\SandBox\sfx_SetVelocity_Hard	
+	485926970	sfx_Imp_Clock			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Clock	Plays Impact of the clock  
+	771146620	sfx_Imp_Cloth			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Cloth	Plays Cloth Impact (bow tie, hat)
+	1180717529	sfx_Clock			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Clock	Plays a clock ticking 
+	1216473977	sfx_Mvnt_Paper			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Mvnt_Paper	Paper Movement
+	1230953279	sfx_Imp_Wood			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Wood	Plays impact of wood (tables, floor, desk)
+	1804146695	sfx_Imp_Frame			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Frame	Plays the sound of the photo frame impacting 
+	2540328137	sfx_Fire			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Fire	Plays the Fireplace 
+	2718434931	amb_Sandbox			\Default Work Unit\SandBox\Sandbox\Amb\amb_Sandbox	
+	2905289089	sfx_Imp_Metal			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Metal	
+	2914957998	sfx_Imp_Paper			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Paper	Impact of paper (for the posters)
+	3006076750	sfx_Medal			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Medal	
+	3526539070	sfx_Imp_Guitar			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Guitar	Impact of the guitar (falling?)
+	3618021940	sfx_Imp_Telegraph			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Telegraph	Plays the impact of the telegraph
+	3931415527	sfx_Imp_Leather			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Leather	Impact of leather (Couches)
+	4117300191	sfx_Imp_Book			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Book	Plays impact of a book
+	4231721163	sfx_Imp_Rock			\Default Work Unit\SandBox\Sandbox\SFX\sfx_Imp_Rock	Plays rock impact (walls, statues)
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3519441192	Velocity			\Default Work Unit\Velocity	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	10811419	sfx_clock_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_03		192064
-	159855840	sfx_clock_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_01		192064
-	311773945	sfx_clock_05	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_05		192064
-	379568364	sfx_clock_06	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_06		192236
-	914896481	sfx_clock_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_02		192236
-	1062535440	sfx_clock_04	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_04		192236
+	10811419	sfx_clock_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Clock\sfx_clock_03		192064
+	19974505	sfx_MAT_Wood_Hard_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_Hard_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Hard\sfx_MAT_Wood_Hard_03		274256
+	66141390	sfx_MAT_Wood_Med_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_Med_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Medium\sfx_MAT_Wood_Med_03		265124
+	159855840	sfx_clock_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Clock\sfx_clock_01		192064
+	240116462	sfx_MAT_Wood_Med_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_Med_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Medium\sfx_MAT_Wood_Med_01		246860
+	311773945	sfx_clock_05	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Clock\sfx_clock_05		192064
+	315996988	sfx_MAT_rock_med_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_med_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Medium\sfx_MAT_rock_med_03		222072
+	320268179	sfx_MAT_Wood_Hard_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_Hard_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Hard\sfx_MAT_Wood_Hard_02		274256
+	340989370	sfx_MAT_Wood_Hard_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_Hard_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Hard\sfx_MAT_Wood_Hard_01		255992
+	379568364	sfx_clock_06	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Clock\sfx_clock_06		192236
+	448512554	sfx_MAT_rock_hard_04	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_hard_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Hard\sfx_MAT_rock_hard_04		227964
+	475323064	sfx_MAT_rock_soft_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_soft_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Soft\sfx_MAT_rock_soft_03		216712
+	639770298	sfx_MAT_rock_hard_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_hard_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Hard\sfx_MAT_rock_hard_02		227964
+	643865845	sfx_MAT_rock_soft_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_soft_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Soft\sfx_MAT_rock_soft_02		233860
+	714714579	sfx_MAT_rock_med_04	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_med_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Medium\sfx_MAT_rock_med_04		224644
+	734648075	sfx_Fire	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_Fire_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\sfx_Fire		4275540
+	739094311	sfx_MAT_Wood_soft_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_soft_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Soft\sfx_MAT_Wood_soft_02		255992
+	791065223	sfx_MAT_Wood_soft_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_soft_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Soft\sfx_MAT_Wood_soft_01		255992
+	914896481	sfx_clock_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Clock\sfx_clock_02		192236
+	941024312	sfx_MAT_rock_soft_04	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_soft_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Soft\sfx_MAT_rock_soft_04		233860
+	961005819	sfx_MAT_Wood_Med_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_Wood_Med_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Wood\Medium\sfx_MAT_Wood_Med_02		260556
+	973355850	sfx_MAT_rock_hard_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_hard_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Hard\sfx_MAT_rock_hard_03		233860
+	974097126	sfx_MAT_rock_med_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_med_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Medium\sfx_MAT_rock_med_02		224644
+	981860684	sfx_MAT_rock_soft_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_soft_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Soft\sfx_MAT_rock_soft_01		216712
+	983875998	sfx_MAT_rock_med_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_med_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Medium\sfx_MAT_rock_med_01		222072
+	1062535440	sfx_clock_04	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Clock\sfx_clock_04		192236
+	1065126318	sfx_MAT_rock_hard_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_MAT_rock_hard_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\SFX\Impacts\Imp_Rock\Hard\sfx_MAT_rock_hard_01		233860
 

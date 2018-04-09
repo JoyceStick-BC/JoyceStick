@@ -1387,10 +1387,15 @@
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+									<ObjectRef Name="FirePlace" ID="{E567959E-A1C8-4AAB-99BB-5108A9F1C000}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
