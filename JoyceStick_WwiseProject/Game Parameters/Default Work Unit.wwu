@@ -3,7 +3,12 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{33285182-151A-4789-A804-B6D2325E1973}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Velocity" ID="{AFE4AD67-5544-426D-8ABE-7A9E9C7DA50C}"/>
+				<GameParameter Name="Velocity" ID="{AFE4AD67-5544-426D-8ABE-7A9E9C7DA50C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="8"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

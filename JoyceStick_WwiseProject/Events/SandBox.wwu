@@ -3,14 +3,63 @@
 	<Events>
 		<WorkUnit Name="SandBox" ID="{24D24150-C0E8-4564-850A-5293844EB52A}" OwnerID="{462EA06F-1B65-4604-B35A-B69E3C23B161}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="sfx_SetVelocity_Soft" ID="{59FED223-528E-4860-8F87-A082D54AD7B0}"/>
-				<Event Name="sfx_SetVelocity_Medium" ID="{5DCDDBC2-F630-4FCD-9A10-75C163023573}"/>
-				<Event Name="sfx_SetVelocity_Hard" ID="{EA1E1DA5-92F6-4E2E-AE6D-52F050A5A506}"/>
-				<Event Name="sfx_Mat_Rock" ID="{CE48EA80-8F49-479A-A3E7-AA1A83B28E56}"/>
-				<Event Name="sfx_Mat_Wood" ID="{BE144383-C1EB-4164-B1B4-9CB633610BBD}"/>
-				<Event Name="sfx_Mat_Leather" ID="{FD4D65E4-2694-414E-BB5D-111DD354EF5B}"/>
-				<Event Name="sfx_Mat_Cloth" ID="{23E802D9-D90D-4AAD-B5A7-E916FBA55AA4}"/>
-				<Event Name="sfx_MedalClose" ID="{DCE2251F-9798-4BC1-A908-4D07741B09ED}"/>
+				<Event Name="sfx_Mat_Rock" ID="{CE48EA80-8F49-479A-A3E7-AA1A83B28E56}">
+					<ChildrenList>
+						<Action Name="" ID="{CEE0780D-FBC6-4D7D-A4FB-074F7E77E82A}" ShortID="739280670">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mat_Rock" ID="{DEC7804B-C00B-418E-8C33-4E904F9381A7}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Mat_Wood" ID="{BE144383-C1EB-4164-B1B4-9CB633610BBD}">
+					<ChildrenList>
+						<Action Name="" ID="{546018BF-3824-43A8-9674-60927AC48366}" ShortID="604899307">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mat_Wood" ID="{50EC9A6E-F09C-465D-80FB-F76DC32E5BFA}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Mat_Leather" ID="{FD4D65E4-2694-414E-BB5D-111DD354EF5B}">
+					<ChildrenList>
+						<Action Name="" ID="{EC37CA07-BA7C-48C9-B3C6-89B72E1A7AA4}" ShortID="949611071">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mat_Leather" ID="{1A0EEFA9-1620-42B1-8B72-BDEB82C00E94}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Mat_Cloth" ID="{23E802D9-D90D-4AAD-B5A7-E916FBA55AA4}">
+					<ChildrenList>
+						<Action Name="" ID="{BA37A208-E088-47A8-BED6-3A3F3102296F}" ShortID="555892814">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mat_Cloth" ID="{909A9FE8-D061-4F94-9840-F3ADA08254B6}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Medal" ID="{DCE2251F-9798-4BC1-A908-4D07741B09ED}"/>
 				<Event Name="sfx_Clock" ID="{7F084AEF-F934-4BFC-AF46-D13412231EEB}">
 					<ChildrenList>
 						<Action Name="" ID="{9AEA0261-2C43-4DEA-A966-D5B67A9660CE}" ShortID="918070792">
@@ -26,7 +75,20 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="sfx_Book" ID="{FBBE80BF-F339-410E-AFD6-3FDAB15D5263}"/>
-				<Event Name="sfx_Fire" ID="{9F89AE96-69BF-4F76-A527-ED97B3608F3C}"/>
+				<Event Name="sfx_Fire" ID="{9F89AE96-69BF-4F76-A527-ED97B3608F3C}">
+					<ChildrenList>
+						<Action Name="" ID="{37A8994F-D32B-466E-970C-CEE3BF8A9FC7}" ShortID="16199498">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Fire" ID="{A0F236A0-F763-4C84-B20F-7668B157798A}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="sfx_TelegraphClick" ID="{065A33F8-9C01-4A4A-81B0-BEECC76CF731}"/>
 			</ChildrenList>
 		</WorkUnit>

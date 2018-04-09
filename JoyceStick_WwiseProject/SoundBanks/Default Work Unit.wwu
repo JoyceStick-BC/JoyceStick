@@ -12,7 +12,7 @@
 						<ObjectRef Name="sfx_SetVelocity_Soft" ID="{59FED223-528E-4860-8F87-A082D54AD7B0}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_TelegraphClick" ID="{065A33F8-9C01-4A4A-81B0-BEECC76CF731}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_Mat_Cloth" ID="{23E802D9-D90D-4AAD-B5A7-E916FBA55AA4}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_MedalClose" ID="{DCE2251F-9798-4BC1-A908-4D07741B09ED}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Medal" ID="{DCE2251F-9798-4BC1-A908-4D07741B09ED}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_Clock" ID="{7F084AEF-F934-4BFC-AF46-D13412231EEB}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_SetVelocity_Hard" ID="{EA1E1DA5-92F6-4E2E-AE6D-52F050A5A506}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_Fire" ID="{9F89AE96-69BF-4F76-A527-ED97B3608F3C}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
