@@ -287,9 +287,6 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /JoyceStick_WwiseProject
-  - /JoyceStick_WwiseProject/Events
-  - /JoyceStick_WwiseProject/Events/Default Work Unit
-  - /JoyceStick_WwiseProject/Events/Default Work Unit/SandBox
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
