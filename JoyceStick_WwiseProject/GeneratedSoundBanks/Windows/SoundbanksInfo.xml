@@ -1,95 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_180203_JoyceStick/JoyceStick/JoyceStick_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_180203_JoyceStick/JoyceStick/JoyceStick_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_180203_JoyceStick/JoyceStick/JoyceStick_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/_VDG/VDG_180203_JoyceStick/JoyceStick/JoyceStick_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="222378406" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SandBox</ObjectPath>
+			<ShortName>SandBox</ShortName>
+			<Path>SandBox.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1622948446" Name="sfx_Book" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Book"/>
+				<Event Id="1180717529" Name="sfx_Clock" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Clock"/>
+				<Event Id="2540328137" Name="sfx_Fire" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Fire"/>
+				<Event Id="3983679968" Name="sfx_Mat_Cloth" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Cloth"/>
+				<Event Id="207091779" Name="sfx_Mat_Leather" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Leather"/>
+				<Event Id="685381719" Name="sfx_Mat_Rock" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Rock"/>
+				<Event Id="3838141635" Name="sfx_Mat_Wood" ObjectPath="\Events\Default Work Unit\SandBox\sfx_Mat_Wood"/>
+				<Event Id="3611340562" Name="sfx_MedalClose" ObjectPath="\Events\Default Work Unit\SandBox\sfx_MedalClose"/>
+				<Event Id="4216639430" Name="sfx_SetVelocity_Hard" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Hard"/>
+				<Event Id="449648328" Name="sfx_SetVelocity_Medium" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Medium"/>
+				<Event Id="2632764025" Name="sfx_SetVelocity_Soft" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Soft"/>
+				<Event Id="2456440797" Name="sfx_TelegraphClick" ObjectPath="\Events\Default Work Unit\SandBox\sfx_TelegraphClick"/>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="3528779733" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\AudioTest</ObjectPath>
-			<ShortName>AudioTest</ShortName>
-			<Path>AudioTest.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2954220984" Name="Aeolus_MX_P1" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_MX_P1" MaxAttenuation="0.000000"/>
-				<Event Id="2560638499" Name="Aeolus_Start" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_Start"/>
-				<Event Id="973298338" Name="Aeolus_StopAll" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_StopAll" MaxAttenuation="0.000000"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="226835659" Language="SFX">
-					<ShortName>Combat_P1_L1_V2_1.wav</ShortName>
-					<Path>SFX/Combat_P1_L1_V2_1_F17FB28C.wem</Path>
-				</File>
-				<File Id="380535786" Language="SFX">
-					<ShortName>Combat_P1_L3_V2_1.wav</ShortName>
-					<Path>SFX/Combat_P1_L3_V2_1_F17FB28C.wem</Path>
-				</File>
-				<File Id="421779993" Language="SFX">
-					<ShortName>Xplor_Danger_P1_L3_V1_4.wav</ShortName>
-					<Path>SFX/Xplor_Danger_P1_L3_V1_4_F17FB28C.wem</Path>
-				</File>
-				<File Id="487755882" Language="SFX">
-					<ShortName>Xplor_Danger_P1_L1_V1_4.wav</ShortName>
-					<Path>SFX/Xplor_Danger_P1_L1_V1_4_F17FB28C.wem</Path>
-				</File>
-				<File Id="741462656" Language="SFX">
-					<ShortName>StingerIn.wav</ShortName>
-					<Path>SFX/StingerIn_F17FB28C.wem</Path>
-				</File>
-				<File Id="752776833" Language="SFX">
-					<ShortName>StingerOut.wav</ShortName>
-					<Path>SFX/StingerOut_F17FB28C.wem</Path>
-				</File>
-				<File Id="763096495" Language="SFX">
-					<ShortName>Combat_P1_L2_V2_1.wav</ShortName>
-					<Path>SFX/Combat_P1_L2_V2_1_F17FB28C.wem</Path>
-				</File>
-				<File Id="817218415" Language="SFX">
-					<ShortName>Xplor_Danger_P1_L1_V1_3.wav</ShortName>
-					<Path>SFX/Xplor_Danger_P1_L1_V1_3_F17FB28C.wem</Path>
-				</File>
-				<File Id="882127834" Language="SFX">
-					<ShortName>Xplor_Danger_P1_L2_V1_4.wav</ShortName>
-					<Path>SFX/Xplor_Danger_P1_L2_V1_4_F17FB28C.wem</Path>
-				</File>
-				<File Id="964661975" Language="SFX">
-					<ShortName>Xplor_Danger_P1_L2_V1_1.wav</ShortName>
-					<Path>SFX/Xplor_Danger_P1_L2_V1_1_F17FB28C.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
-		<SoundBank Id="4037604477" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\AudioTest2</ObjectPath>
-			<ShortName>AudioTest2</ShortName>
-			<Path>AudioTest2.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2954220987" Name="Aeolus_MX_P2" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_MX_P2" MaxAttenuation="0.000000"/>
-				<Event Id="4171324287" Name="Aeolus_SFX_Wind" ObjectPath="\Events\Default Work Unit\Aeolus_Events\Aeolus_SFX_Wind" MaxAttenuation="100.000000"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="192057793" Language="SFX">
-					<ShortName>VDG_180217_Joycestick_SD_windHigh.wav</ShortName>
-					<Path>SFX/VDG_180217_Joycestick_SD_windHigh_F17FB28C.wem</Path>
-				</File>
-				<File Id="222364091" Language="SFX">
-					<ShortName>VDG_180217_Joycestick_SD_windLow.wav</ShortName>
-					<Path>SFX/VDG_180217_Joycestick_SD_windLow_F17FB28C.wem</Path>
-				</File>
-				<File Id="1018325287" Language="SFX">
-					<ShortName>VDG_180217_Joycestick_SD_windHigh1.wav</ShortName>
-					<Path>SFX/VDG_180217_Joycestick_SD_windHigh1_F17FB28C.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

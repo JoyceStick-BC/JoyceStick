@@ -3,13 +3,20 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{9990F58E-50B3-4294-9113-4B4602ABF353}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="AudioTest" ID="{C8B7143D-201D-40A2-8293-507D2DA8A7AC}">
+				<SoundBank Name="SandBox" ID="{D4072DC2-DEEB-42F5-8749-B7AB37E30BDE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Aeolus_MX_P1" ID="{61B66CA0-4EE8-431E-9831-F2642B10D5FD}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Aeolus_MX_P2" ID="{1EDE2AF5-7D72-48C3-BCA5-338B7C7F17E0}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Aeolus_StopAll" ID="{637199A7-BD9E-4CF8-8973-34E0F2F6CF36}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Aeolus_SFX_Wind" ID="{E80F1750-56E8-4EA2-A6F7-62A23C542E72}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Aeolus_Start" ID="{8DF71C25-5B87-4FB7-A511-50BD028342CB}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Book" ID="{FBBE80BF-F339-410E-AFD6-3FDAB15D5263}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Mat_Leather" ID="{FD4D65E4-2694-414E-BB5D-111DD354EF5B}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Mat_Wood" ID="{BE144383-C1EB-4164-B1B4-9CB633610BBD}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Mat_Rock" ID="{CE48EA80-8F49-479A-A3E7-AA1A83B28E56}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_SetVelocity_Soft" ID="{59FED223-528E-4860-8F87-A082D54AD7B0}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_TelegraphClick" ID="{065A33F8-9C01-4A4A-81B0-BEECC76CF731}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Mat_Cloth" ID="{23E802D9-D90D-4AAD-B5A7-E916FBA55AA4}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_MedalClose" ID="{DCE2251F-9798-4BC1-A908-4D07741B09ED}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Clock" ID="{7F084AEF-F934-4BFC-AF46-D13412231EEB}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_SetVelocity_Hard" ID="{EA1E1DA5-92F6-4E2E-AE6D-52F050A5A506}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_Fire" ID="{9F89AE96-69BF-4F76-A527-ED97B3608F3C}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_SetVelocity_Medium" ID="{5DCDDBC2-F630-4FCD-9A10-75C163023573}" WorkUnitID="{24D24150-C0E8-4564-850A-5293844EB52A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

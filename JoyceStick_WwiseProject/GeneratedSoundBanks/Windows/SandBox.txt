@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	207091779	sfx_Mat_Leather			\Default Work Unit\SandBox\sfx_Mat_Leather	
+	449648328	sfx_SetVelocity_Medium			\Default Work Unit\SandBox\sfx_SetVelocity_Medium	
+	685381719	sfx_Mat_Rock			\Default Work Unit\SandBox\sfx_Mat_Rock	
+	1180717529	sfx_Clock			\Default Work Unit\SandBox\sfx_Clock	
+	1622948446	sfx_Book			\Default Work Unit\SandBox\sfx_Book	
+	2456440797	sfx_TelegraphClick			\Default Work Unit\SandBox\sfx_TelegraphClick	
+	2540328137	sfx_Fire			\Default Work Unit\SandBox\sfx_Fire	
+	2632764025	sfx_SetVelocity_Soft			\Default Work Unit\SandBox\sfx_SetVelocity_Soft	
+	3611340562	sfx_MedalClose			\Default Work Unit\SandBox\sfx_MedalClose	
+	3838141635	sfx_Mat_Wood			\Default Work Unit\SandBox\sfx_Mat_Wood	
+	3983679968	sfx_Mat_Cloth			\Default Work Unit\SandBox\sfx_Mat_Cloth	
+	4216639430	sfx_SetVelocity_Hard			\Default Work Unit\SandBox\sfx_SetVelocity_Hard	
+
