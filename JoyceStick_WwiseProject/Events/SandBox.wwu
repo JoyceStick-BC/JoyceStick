@@ -129,7 +129,30 @@
 						</Folder>
 						<Folder Name="Amb" ID="{12C8A782-90FA-452D-AC0A-AC01B0B77542}" ShortID="898527401">
 							<ChildrenList>
-								<Event Name="amb_Sandbox" ID="{FE241EAA-C7A1-40C1-939C-AE1D5D9219E0}"/>
+								<Event Name="amb_Sandbox" ID="{FE241EAA-C7A1-40C1-939C-AE1D5D9219E0}">
+									<ChildrenList>
+										<Action Name="" ID="{C06CB105-4203-49F9-B06C-E419563897AE}" ShortID="894769338">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="2D" ID="{A05EAAEB-C7EB-48D1-8B27-8F57079C18F7}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BA4C37A6-06A4-4838-98F5-192869E8B20F}" ShortID="281392730">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambisonic_Amb" ID="{E30253E2-E2CE-4D8B-A6C4-2127233C03F5}" WorkUnitID="{C81A7123-40BD-41F2-A225-4431FF4D1185}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
