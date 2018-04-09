@@ -29,6 +29,32 @@
 				<Event Id="2632764025" Name="sfx_SetVelocity_Soft" ObjectPath="\Events\Default Work Unit\SandBox\sfx_SetVelocity_Soft"/>
 				<Event Id="2456440797" Name="sfx_TelegraphClick" ObjectPath="\Events\Default Work Unit\SandBox\sfx_TelegraphClick"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="10811419" Language="SFX">
+					<ShortName>sfx_clock_03.wav</ShortName>
+					<Path>SFX\sfx_clock_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="159855840" Language="SFX">
+					<ShortName>sfx_clock_01.wav</ShortName>
+					<Path>SFX\sfx_clock_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="311773945" Language="SFX">
+					<ShortName>sfx_clock_05.wav</ShortName>
+					<Path>SFX\sfx_clock_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="379568364" Language="SFX">
+					<ShortName>sfx_clock_06.wav</ShortName>
+					<Path>SFX\sfx_clock_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="914896481" Language="SFX">
+					<ShortName>sfx_clock_02.wav</ShortName>
+					<Path>SFX\sfx_clock_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1062535440" Language="SFX">
+					<ShortName>sfx_clock_04.wav</ShortName>
+					<Path>SFX\sfx_clock_04_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>

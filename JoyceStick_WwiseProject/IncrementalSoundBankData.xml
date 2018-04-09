@@ -5,13 +5,13 @@
 			<Language ID="393239870">
 				<File Name="AudioTest" Hash="2593912310" Timestamp="1518975696"/>
 				<File Name="AudioTest2" Hash="1364940871" Timestamp="1518975696"/>
-				<File Name="Init" Hash="1310349817" Timestamp="1523274562"/>
-				<File Name="SandBox" Hash="3410465773" Timestamp="1523274562"/>
+				<File Name="Init" Hash="3395782323" Timestamp="1523277873"/>
+				<File Name="SandBox" Hash="2203689654" Timestamp="1523277873"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2444876318" Timestamp="1523274625"/>
+				<File Name="" Hash="1653775672" Timestamp="1523277873"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

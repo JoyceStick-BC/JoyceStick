@@ -12,3 +12,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	3983679968	sfx_Mat_Cloth			\Default Work Unit\SandBox\sfx_Mat_Cloth	
 	4216639430	sfx_SetVelocity_Hard			\Default Work Unit\SandBox\sfx_SetVelocity_Hard	
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10811419	sfx_clock_03	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_03		192064
+	159855840	sfx_clock_01	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_01		192064
+	311773945	sfx_clock_05	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_05		192064
+	379568364	sfx_clock_06	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_06		192236
+	914896481	sfx_clock_02	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_02		192236
+	1062535440	sfx_clock_04	C:\Users\JoyceStick\Documents\JoyceStick\JoyceStick_Unity\JoyceStick\JoyceStick_WwiseProject\.cache\Windows\SFX\sfx_clock_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SandBox\Clock\sfx_clock_04		192236
+
