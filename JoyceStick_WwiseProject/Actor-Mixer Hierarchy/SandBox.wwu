@@ -21,22 +21,6 @@
 								</Reference>
 							</ReferenceList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Clapet" ID="{7EF1E040-4C0B-4137-847F-F02140A35D07}" ShortID="454910637">
-							<PropertyList>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
 						<BlendContainer Name="Paper" ID="{482CE454-DD8B-4A57-B993-7F589D4E7C1B}" ShortID="748592097">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
@@ -83,6 +67,108 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_MAT_rock_soft_02" ID="{0E0FA9EB-CECA-4FEA-9B96-1544952D5E2E}" ShortID="380101247">
+													<PropertyList>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_soft_02" ID="{E33AE99A-4D20-430E-8619-75D6D54E19F2}" ShortID="643865845">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_soft_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_soft_02" ID="{E33AE99A-4D20-430E-8619-75D6D54E19F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_soft_01" ID="{341E4096-B704-4B02-9CD4-98D439F0490D}" ShortID="73157495">
+													<PropertyList>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_soft_01" ID="{DC78314D-AC19-4947-91A6-41E8B61EFFE9}" ShortID="981860684">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_soft_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_soft_01" ID="{DC78314D-AC19-4947-91A6-41E8B61EFFE9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_soft_03" ID="{A768164D-8F13-4A7C-A3CC-8757EA2EB153}" ShortID="794145836">
+													<PropertyList>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_soft_03" ID="{3FF47F04-5B16-404D-A528-9F54F8911427}" ShortID="475323064">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_soft_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_soft_03" ID="{3FF47F04-5B16-404D-A528-9F54F8911427}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_soft_04" ID="{3AD5880C-4D6D-4ED5-9868-1BA0E320665B}" ShortID="327933625">
+													<PropertyList>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_soft_04" ID="{3D8CC8C2-FC4F-44A4-BD85-EACE184FF384}" ShortID="941024312">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_soft_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_soft_04" ID="{3D8CC8C2-FC4F-44A4-BD85-EACE184FF384}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Medium" ID="{868D6DBC-8876-4B7A-AB9D-DD0A00694CAB}" ShortID="136533287">
 											<ReferenceList>
@@ -93,6 +179,84 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_MAT_rock_med_01" ID="{503B4808-F66E-4A80-9AEC-0778EC25EB47}" ShortID="419266049">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_med_01" ID="{44150D6F-0E3C-4F82-8715-957399988713}" ShortID="983875998">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_med_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_med_01" ID="{44150D6F-0E3C-4F82-8715-957399988713}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_med_02" ID="{207974B1-6E94-4CFC-BAC9-9820174BE649}" ShortID="303822007">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_med_02" ID="{01E8643C-6422-44EB-A5A6-F5C28356A435}" ShortID="974097126">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_med_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_med_02" ID="{01E8643C-6422-44EB-A5A6-F5C28356A435}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_med_03" ID="{49D53B24-697F-4039-8B18-7ED66627A41D}" ShortID="769533560">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_med_03" ID="{D05AF238-4427-457B-9ABC-136C2392B29E}" ShortID="315996988">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_med_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_med_03" ID="{D05AF238-4427-457B-9ABC-136C2392B29E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_med_04" ID="{276D428E-8143-417B-89D2-435618A99433}" ShortID="396216067">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_med_04" ID="{A47C5EB3-888B-4728-AD13-CE2E09413D89}" ShortID="714714579">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_med_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_med_04" ID="{A47C5EB3-888B-4728-AD13-CE2E09413D89}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Hard" ID="{65B1AC5B-2511-4BE2-B330-94481E7AC132}" ShortID="932447205">
 											<ReferenceList>
@@ -103,6 +267,84 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_MAT_rock_hard_01" ID="{59F08D66-588E-4DAB-834E-C150EA212734}" ShortID="1021409417">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_hard_01" ID="{7924C0C6-EE50-4E4A-AD5B-EA3EA3C09144}" ShortID="1065126318">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_hard_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_hard_01" ID="{7924C0C6-EE50-4E4A-AD5B-EA3EA3C09144}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_hard_02" ID="{790B9C2F-B24E-4972-B1EF-A1714886EC7A}" ShortID="798195965">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_hard_02" ID="{9EA816D7-BFFD-4552-8FD5-C9248E367AE3}" ShortID="639770298">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_hard_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_hard_02" ID="{9EA816D7-BFFD-4552-8FD5-C9248E367AE3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_hard_03" ID="{3A1E2391-F099-46FB-B4BC-3D9894DEA8F2}" ShortID="719672792">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_hard_03" ID="{9AA2976F-C253-44D5-9F40-134CF1509131}" ShortID="973355850">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_hard_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_hard_03" ID="{9AA2976F-C253-44D5-9F40-134CF1509131}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_rock_hard_04" ID="{8BBB6371-116B-4C29-B874-4FCDA21E0FC6}" ShortID="842953830">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_rock_hard_04" ID="{F7B6A5D2-4196-4FE2-AFCB-C4B2D665F8D2}" ShortID="448512554">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_rock_hard_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_rock_hard_04" ID="{F7B6A5D2-4196-4FE2-AFCB-C4B2D665F8D2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
@@ -168,23 +410,35 @@
 												</Reference>
 											</ReferenceList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}" ShortID="745922402">
+										<RandomSequenceContainer Name="Medium" ID="{C5A751C4-AD80-40F3-A5FA-F3F6F04EFDC5}" ShortID="892105891">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}" ShortID="324167633">
+										<RandomSequenceContainer Name="Hard" ID="{9126845A-E97B-4C1C-8C3B-271CFFB3CE76}" ShortID="39855896">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
 										</RandomSequenceContainer>
@@ -192,32 +446,20 @@
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}"/>
+												<ItemRef Name="Hard" ID="{9126845A-E97B-4C1C-8C3B-271CFFB3CE76}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Soft" ID="{8C701986-DA2A-42FB-858E-529B00ACD08D}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}"/>
+												<ItemRef Name="Medium" ID="{C5A751C4-AD80-40F3-A5FA-F3F6F04EFDC5}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
-												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
-												<ItemList>
-													<ItemRef Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
 												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
 												<ItemList>
 													<ItemRef Name="Soft" ID="{8C701986-DA2A-42FB-858E-529B00ACD08D}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
-												<ItemList>
-													<ItemRef Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
@@ -335,6 +577,46 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_MAT_Wood_soft_01" ID="{15CA4317-6E1F-403E-A964-9E9DBA9A4477}" ShortID="765402030">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_soft_01" ID="{B55147D1-385A-4B16-9D10-3F54148BDB49}" ShortID="791065223">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_soft_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_soft_01" ID="{B55147D1-385A-4B16-9D10-3F54148BDB49}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_Wood_soft_02" ID="{6CC9C5DA-281E-439B-AD8B-DDAB5D0FC44B}" ShortID="229111872">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_soft_02" ID="{D2817BE0-7927-4A26-B8CD-4C1FBEC4CFE4}" ShortID="739094311">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_soft_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_soft_02" ID="{D2817BE0-7927-4A26-B8CD-4C1FBEC4CFE4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Medium" ID="{2060F487-7A39-40FA-BFEF-EEB2AA6007B6}" ShortID="571614008">
 											<ReferenceList>
@@ -345,6 +627,65 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_MAT_Wood_Med_01" ID="{097DC0EE-C78B-49EE-A5CB-75D7B8A76937}" ShortID="1032600081">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_Med_01" ID="{0ACBD9D8-3853-465E-B92C-A300C769028A}" ShortID="240116462">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_Med_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_Med_01" ID="{0ACBD9D8-3853-465E-B92C-A300C769028A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_Wood_Med_02" ID="{700094B9-C6AD-4D97-80AA-234984AA4A69}" ShortID="167636586">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_Med_02" ID="{D6835FDA-3032-46D9-8E37-5B597F2932DF}" ShortID="961005819">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_Med_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_Med_02" ID="{D6835FDA-3032-46D9-8E37-5B597F2932DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_Wood_Med_03" ID="{A96AD27F-7AE1-4716-A391-8801902724A6}" ShortID="488655961">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_Med_03" ID="{B4AB35D4-1E0B-4EFC-82C8-EEDB99A5349C}" ShortID="66141390">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_Med_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_Med_03" ID="{B4AB35D4-1E0B-4EFC-82C8-EEDB99A5349C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Hard" ID="{CBE82D77-1D65-43FB-997E-9BC44D80A947}" ShortID="155741642">
 											<ReferenceList>
@@ -355,6 +696,65 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_MAT_Wood_Hard_01" ID="{F92C9409-9D5D-4DBF-9D38-86AB7923C39B}" ShortID="1000440231">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_Hard_01" ID="{C53635FC-1F7D-4392-8B58-5C0778A99C32}" ShortID="340989370">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_Hard_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_Hard_01" ID="{C53635FC-1F7D-4392-8B58-5C0778A99C32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_Wood_Hard_02" ID="{C2D937B2-9E3D-429B-B172-9D3B30A6035B}" ShortID="241557459">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_Hard_02" ID="{878FBDE9-5151-421D-9378-9C6EA2F36B1D}" ShortID="320268179">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_Hard_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_Hard_02" ID="{878FBDE9-5151-421D-9378-9C6EA2F36B1D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_MAT_Wood_Hard_03" ID="{59CD9A1E-B4DB-4E9D-8DB3-137C7EA53695}" ShortID="603494495">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_MAT_Wood_Hard_03" ID="{8FF3E7C0-AFCE-4459-95D7-A974D1086517}" ShortID="19974505">
+															<Language>SFX</Language>
+															<AudioFile>sfx_MAT_Wood_Hard_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_MAT_Wood_Hard_03" ID="{8FF3E7C0-AFCE-4459-95D7-A974D1086517}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
@@ -557,6 +957,262 @@
 												</ItemList>
 											</Grouping>
 										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Clapet" ID="{E1B7D8F4-8679-43C7-85F8-E2341073EFF0}" ShortID="180834033">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{7EF1E040-4C0B-4137-847F-F02140A35D07}" ShortID="454910637">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_clapet_Soft_01" ID="{94D99447-228C-4375-9C36-F243DD4A8B5F}" ShortID="686783166">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Soft_01" ID="{59D545C6-94AC-4C5F-8290-054F49ABFD94}" ShortID="561169071">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Soft_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Soft_01" ID="{59D545C6-94AC-4C5F-8290-054F49ABFD94}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_clapet_Soft_02" ID="{AB009C99-F7D2-4E00-93E2-ECF0CF0FF8A2}" ShortID="778007548">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Soft_02" ID="{5C26EC04-7DDE-4FA8-BE55-346229BA527E}" ShortID="703694429">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Soft_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Soft_02" ID="{5C26EC04-7DDE-4FA8-BE55-346229BA527E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_clapet_Soft_03" ID="{F864A5CD-04CB-436D-B76A-B2F2A64F224B}" ShortID="801471610">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Soft_03" ID="{CBE9879A-9DE7-42D0-8CA8-DEEF69CE7457}" ShortID="423260166">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Soft_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Soft_03" ID="{CBE9879A-9DE7-42D0-8CA8-DEEF69CE7457}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}" ShortID="745922402">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_clapet_Med_01" ID="{8D312053-2500-4BBD-8620-84DFDFE944EA}" ShortID="898513400">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Med_01" ID="{B888CDFF-DF07-44B0-A57D-97EB959B7B42}" ShortID="271001852">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Med_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Med_01" ID="{B888CDFF-DF07-44B0-A57D-97EB959B7B42}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_clapet_Med_02" ID="{AD424119-B73B-48C2-984E-4D18291D18C0}" ShortID="990230226">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Med_02" ID="{E59B62F9-2CBE-4CD3-B250-A5564441FC9E}" ShortID="601350688">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Med_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Med_02" ID="{E59B62F9-2CBE-4CD3-B250-A5564441FC9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}" ShortID="324167633">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_clapet_Hard_01" ID="{54EC522C-677B-4426-90B5-DF32D012E041}" ShortID="626078885">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Hard_01" ID="{4340BCF2-6C8F-4ED1-A323-D2D0B86B253A}" ShortID="649849266">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Hard_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Hard_01" ID="{4340BCF2-6C8F-4ED1-A323-D2D0B86B253A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_clapet_Hard_02" ID="{ED5CA486-983D-4E50-9D3C-1C67EB81B904}" ShortID="608380664">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Hard_02" ID="{4F3F0B82-DCD8-492F-A281-59E2F6F9273D}" ShortID="888677100">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Hard_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Hard_02" ID="{4F3F0B82-DCD8-492F-A281-59E2F6F9273D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_clapet_Hard_03" ID="{CD2C1F28-39A2-4BAE-8B62-A11D9204589A}" ShortID="345831521">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Hard_03" ID="{2EEBEB73-3624-48C4-ABED-96FB56963284}" ShortID="217255444">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Hard_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Hard_03" ID="{2EEBEB73-3624-48C4-ABED-96FB56963284}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_clapet_Hard_04" ID="{2EE4B706-E23B-4561-A8FA-2F86F79CB853}" ShortID="902036869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_clapet_Hard_04" ID="{56519467-5C02-4E3A-A2C7-554177FB0499}" ShortID="386672854">
+															<Language>SFX</Language>
+															<AudioFile>sfx_clapet_Hard_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_clapet_Hard_04" ID="{56519467-5C02-4E3A-A2C7-554177FB0499}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{7EF1E040-4C0B-4137-847F-F02140A35D07}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
