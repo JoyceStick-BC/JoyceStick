@@ -26,7 +26,7 @@ public class AudioCollisionScript : MonoBehaviour {
         {
             return;
         }
-
+        
         if (hardness > otherObj.hardness)
         {
             AudioManager.SetRTPCValue("Velocity", gameObject.GetComponent<Rigidbody>().velocity.magnitude);
