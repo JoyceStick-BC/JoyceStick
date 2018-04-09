@@ -19,6 +19,20 @@
 					<ChildrenList>
 						<Bus Name="SandBox" ID="{0560AD49-563A-4B49-BDDB-175297B91BFA}">
 							<ChildrenList>
+								<Bus Name="Ambiance" ID="{0ACA1E9E-8776-48C3-94C2-8EF96F3B0BB0}">
+									<ChildrenList>
+										<Bus Name="2D" ID="{30A799D4-70CC-4E6B-B96E-AB7A5061451B}"/>
+										<Bus Name="Ambisonic" ID="{4CF4E329-1A4E-4FAC-8AAA-2AA9EA1BED0D}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
 								<Bus Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}"/>
 							</ChildrenList>
 						</Bus>

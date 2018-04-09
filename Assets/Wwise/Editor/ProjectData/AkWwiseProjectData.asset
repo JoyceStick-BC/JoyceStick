@@ -22,8 +22,8 @@ MonoBehaviour:
   - PhysicalPath: Events\SandBox.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{24D24150-C0E8-4564-850A-5293844EB52A}'
-    m_lastTimePsrt1: -890767297
-    m_lastTimePart2: -1999266281
+    m_lastTimePsrt1: 1502700125
+    m_lastTimePart2: -1999266262
     List:
     - Name: sfx_Book
       Path: Default Work Unit\SandBox\sfx_Book
@@ -123,59 +123,17 @@ MonoBehaviour:
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
-    - Name: sfx_MedalClose
-      Path: Default Work Unit\SandBox\sfx_MedalClose
+    - Name: sfx_Medal
+      Path: Default Work Unit\SandBox\sfx_Medal
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: SandBox
         ObjectType: 12
-      - ElementName: sfx_MedalClose
+      - ElementName: sfx_Medal
         ObjectType: 3
-      ID: -683626734
+      ID: -1288890546
       Guid: 1f25e2dc9897c14ba9084d07741b09ed
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: sfx_SetVelocity_Hard
-      Path: Default Work Unit\SandBox\sfx_SetVelocity_Hard
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SandBox
-        ObjectType: 12
-      - ElementName: sfx_SetVelocity_Hard
-        ObjectType: 3
-      ID: -78327866
-      Guid: a51d1eeaf6922e4eae6d52f050a5a506
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: sfx_SetVelocity_Medium
-      Path: Default Work Unit\SandBox\sfx_SetVelocity_Medium
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SandBox
-        ObjectType: 12
-      - ElementName: sfx_SetVelocity_Medium
-        ObjectType: 3
-      ID: 449648328
-      Guid: c2dbcd5d30f6cd4f9a1075c163023573
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: sfx_SetVelocity_Soft
-      Path: Default Work Unit\SandBox\sfx_SetVelocity_Soft
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: SandBox
-        ObjectType: 12
-      - ElementName: sfx_SetVelocity_Soft
-        ObjectType: 3
-      ID: -1662203271
-      Guid: 23d2fe598e5260488f87a082d54ad7b0
       minDuration: 0
       maxDuration: 0
       maxAttenuation: 0
@@ -243,8 +201,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9990F58E-50B3-4294-9113-4B4602ABF353}'
-    m_lastTimePsrt1: 244703199
-    m_lastTimePart2: -1999266287
+    m_lastTimePsrt1: 1260354031
+    m_lastTimePart2: -1999266262
     List:
     - Name: SandBox
       Path: Default Work Unit\SandBox
@@ -259,8 +217,8 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{33285182-151A-4789-A804-B6D2325E1973}'
-    m_lastTimePsrt1: -890732263
-    m_lastTimePart2: -1999266281
+    m_lastTimePsrt1: -202261468
+    m_lastTimePart2: -1999266269
     List:
     - Name: Velocity
       Path: Default Work Unit\Velocity

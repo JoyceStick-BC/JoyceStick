@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="SandBox" ID="{C81A7123-40BD-41F2-A225-4431FF4D1185}" OwnerID="{359C946C-B4BF-4A74-A3CF-4A2414F6215E}" PersistMode="Nested">
 			<ChildrenList>
-				<Folder Name="JoyceStick" ID="{EAFA449A-6973-4AA4-8611-EA6A2E47385F}" ShortID="440821192">
+				<Folder Name="SFX" ID="{EAFA449A-6973-4AA4-8611-EA6A2E47385F}" ShortID="440821192">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Telegraph" ID="{C4AB530D-573C-4C5C-86FE-3B639B29D393}" ShortID="732248445">
 							<PropertyList>
@@ -39,8 +39,14 @@
 						</BlendContainer>
 						<Folder Name="Impacts" ID="{D832286E-784F-422A-A5D8-A337AC58B4AA}" ShortID="984863941">
 							<ChildrenList>
-								<BlendContainer Name="Mat_Rock" ID="{DEC7804B-C00B-418E-8C33-4E904F9381A7}" ShortID="715977056">
+								<BlendContainer Name="Imp_Rock" ID="{DEC7804B-C00B-418E-8C33-4E904F9381A7}" ShortID="715977056">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -398,8 +404,14 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
-								<BlendContainer Name="Mat_Wood" ID="{50EC9A6E-F09C-465D-80FB-F76DC32E5BFA}" ShortID="971402840">
+								<BlendContainer Name="Imp_Wood" ID="{50EC9A6E-F09C-465D-80FB-F76DC32E5BFA}" ShortID="971402840">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -658,7 +670,13 @@
 									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="Box_Clap" ID="{EEB9AAF8-2370-4D37-A158-64028ACFF070}" ShortID="384245216">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -935,8 +953,14 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
-								<BlendContainer Name="Mat_Metal" ID="{F72A7F29-79D6-4E64-8261-70192418E10B}" ShortID="717207093">
+								<BlendContainer Name="Imp_Metal" ID="{F72A7F29-79D6-4E64-8261-70192418E10B}" ShortID="717207093">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -1036,8 +1060,14 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
-								<BlendContainer Name="Mat_Cloth" ID="{909A9FE8-D061-4F94-9840-F3ADA08254B6}" ShortID="54927802">
+								<BlendContainer Name="Imp_Cloth" ID="{909A9FE8-D061-4F94-9840-F3ADA08254B6}" ShortID="54927802">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -1137,8 +1167,14 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
-								<BlendContainer Name="Mat_Leather" ID="{1A0EEFA9-1620-42B1-8B72-BDEB82C00E94}" ShortID="232325675">
+								<BlendContainer Name="Imp_Leather" ID="{1A0EEFA9-1620-42B1-8B72-BDEB82C00E94}" ShortID="232325675">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -1239,7 +1275,13 @@
 									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="Obj_Frame" ID="{CE2908E4-95CE-403B-9C09-1294564D820B}" ShortID="974644894">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
@@ -1367,28 +1409,168 @@
 								<ActiveSource Name="sfx_Fire" ID="{DFBCF0C8-FD23-4931-8536-C13BB37C9679}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Clock" ID="{9AC07E3B-1F84-42B6-9A06-46EB6B1DC7F0}" ShortID="741329316">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_clock_01" ID="{B622A709-43A9-40A7-BF46-52E038E5D662}" ShortID="645156581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_clock_01" ID="{2BA5D256-BBA2-458D-B62D-018DFF5C72AC}" ShortID="159855840">
+											<Language>SFX</Language>
+											<AudioFile>sfx_clock_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_clock_01" ID="{2BA5D256-BBA2-458D-B62D-018DFF5C72AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_clock_02" ID="{B7AB3A64-1D76-4EA2-B593-0F6C1BB29828}" ShortID="983297897">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_clock_02" ID="{98B54967-2D36-4DDD-A0A0-E9E4F68FC154}" ShortID="914896481">
+											<Language>SFX</Language>
+											<AudioFile>sfx_clock_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_clock_02" ID="{98B54967-2D36-4DDD-A0A0-E9E4F68FC154}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_clock_03" ID="{4AF4DA33-DDA2-4188-B1FB-5EF89DF503C9}" ShortID="318932753">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_clock_03" ID="{32D78B86-F0DB-48D0-A2BB-D5EA1BC7CEF8}" ShortID="10811419">
+											<Language>SFX</Language>
+											<AudioFile>sfx_clock_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_clock_03" ID="{32D78B86-F0DB-48D0-A2BB-D5EA1BC7CEF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_clock_04" ID="{6DB9308B-63F5-4C74-BA8B-664B4EDC4368}" ShortID="482660455">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_clock_04" ID="{8B3E231B-A37E-4D18-B590-C2592D045F85}" ShortID="1062535440">
+											<Language>SFX</Language>
+											<AudioFile>sfx_clock_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_clock_04" ID="{8B3E231B-A37E-4D18-B590-C2592D045F85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_clock_05" ID="{9FCBCDED-85CC-45DF-A9ED-A911FB74AFC8}" ShortID="973962840">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_clock_05" ID="{D21B44A2-FD9D-4842-BF9D-71AC6CD951B6}" ShortID="311773945">
+											<Language>SFX</Language>
+											<AudioFile>sfx_clock_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_clock_05" ID="{D21B44A2-FD9D-4842-BF9D-71AC6CD951B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_clock_06" ID="{282A9BA4-274B-4E80-B35D-CB6064D943D8}" ShortID="568417814">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_clock_06" ID="{FABFFE69-A2F7-4681-9E7F-C7BBCB71131D}" ShortID="379568364">
+											<Language>SFX</Language>
+											<AudioFile>sfx_clock_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_clock_06" ID="{FABFFE69-A2F7-4681-9E7F-C7BBCB71131D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="sfx_clock_01" ID="{B622A709-43A9-40A7-BF46-52E038E5D662}"/>
+								<ItemRef Name="sfx_clock_02" ID="{B7AB3A64-1D76-4EA2-B593-0F6C1BB29828}"/>
+								<ItemRef Name="sfx_clock_03" ID="{4AF4DA33-DDA2-4188-B1FB-5EF89DF503C9}"/>
+								<ItemRef Name="sfx_clock_04" ID="{6DB9308B-63F5-4C74-BA8B-664B4EDC4368}"/>
+								<ItemRef Name="sfx_clock_05" ID="{9FCBCDED-85CC-45DF-A9ED-A911FB74AFC8}"/>
+								<ItemRef Name="sfx_clock_06" ID="{282A9BA4-274B-4E80-B35D-CB6064D943D8}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<RandomSequenceContainer Name="Clock" ID="{9AC07E3B-1F84-42B6-9A06-46EB6B1DC7F0}" ShortID="741329316">
-					<PropertyList>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Ambiance" ID="{9405D981-6AA8-4BA9-8B41-F7E6845BD8B3}" ShortID="744589321">
 					<ChildrenList>
-						<Sound Name="sfx_clock_01" ID="{B622A709-43A9-40A7-BF46-52E038E5D662}" ShortID="645156581">
+						<Sound Name="2D" ID="{A05EAAEB-C7EB-48D1-8B27-8F57079C18F7}" ShortID="376062874">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
@@ -1397,17 +1579,8 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_clock_01" ID="{2BA5D256-BBA2-458D-B62D-018DFF5C72AC}" ShortID="159855840">
-									<Language>SFX</Language>
-									<AudioFile>sfx_clock_01.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_clock_01" ID="{2BA5D256-BBA2-458D-B62D-018DFF5C72AC}" Platform="Linked"/>
-							</ActiveSourceList>
 						</Sound>
-						<Sound Name="sfx_clock_02" ID="{B7AB3A64-1D76-4EA2-B593-0F6C1BB29828}" ShortID="983297897">
+						<Sound Name="Ambisonic_Amb" ID="{E30253E2-E2CE-4D8B-A6C4-2127233C03F5}" ShortID="142945589">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
@@ -1416,116 +1589,9 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_clock_02" ID="{98B54967-2D36-4DDD-A0A0-E9E4F68FC154}" ShortID="914896481">
-									<Language>SFX</Language>
-									<AudioFile>sfx_clock_02.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_clock_02" ID="{98B54967-2D36-4DDD-A0A0-E9E4F68FC154}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_clock_03" ID="{4AF4DA33-DDA2-4188-B1FB-5EF89DF503C9}" ShortID="318932753">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_clock_03" ID="{32D78B86-F0DB-48D0-A2BB-D5EA1BC7CEF8}" ShortID="10811419">
-									<Language>SFX</Language>
-									<AudioFile>sfx_clock_03.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_clock_03" ID="{32D78B86-F0DB-48D0-A2BB-D5EA1BC7CEF8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_clock_04" ID="{6DB9308B-63F5-4C74-BA8B-664B4EDC4368}" ShortID="482660455">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_clock_04" ID="{8B3E231B-A37E-4D18-B590-C2592D045F85}" ShortID="1062535440">
-									<Language>SFX</Language>
-									<AudioFile>sfx_clock_04.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_clock_04" ID="{8B3E231B-A37E-4D18-B590-C2592D045F85}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_clock_05" ID="{9FCBCDED-85CC-45DF-A9ED-A911FB74AFC8}" ShortID="973962840">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_clock_05" ID="{D21B44A2-FD9D-4842-BF9D-71AC6CD951B6}" ShortID="311773945">
-									<Language>SFX</Language>
-									<AudioFile>sfx_clock_05.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_clock_05" ID="{D21B44A2-FD9D-4842-BF9D-71AC6CD951B6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_clock_06" ID="{282A9BA4-274B-4E80-B35D-CB6064D943D8}" ShortID="568417814">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_clock_06" ID="{FABFFE69-A2F7-4681-9E7F-C7BBCB71131D}" ShortID="379568364">
-									<Language>SFX</Language>
-									<AudioFile>sfx_clock_06.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_clock_06" ID="{FABFFE69-A2F7-4681-9E7F-C7BBCB71131D}" Platform="Linked"/>
-							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<Playlist>
-						<ItemRef Name="sfx_clock_01" ID="{B622A709-43A9-40A7-BF46-52E038E5D662}"/>
-						<ItemRef Name="sfx_clock_02" ID="{B7AB3A64-1D76-4EA2-B593-0F6C1BB29828}"/>
-						<ItemRef Name="sfx_clock_03" ID="{4AF4DA33-DDA2-4188-B1FB-5EF89DF503C9}"/>
-						<ItemRef Name="sfx_clock_04" ID="{6DB9308B-63F5-4C74-BA8B-664B4EDC4368}"/>
-						<ItemRef Name="sfx_clock_05" ID="{9FCBCDED-85CC-45DF-A9ED-A911FB74AFC8}"/>
-						<ItemRef Name="sfx_clock_06" ID="{282A9BA4-274B-4E80-B35D-CB6064D943D8}"/>
-					</Playlist>
-				</RandomSequenceContainer>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

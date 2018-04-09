@@ -28,3 +28,22 @@ public class AudioManager : MonoBehaviour {
 		AkSoundEngine.SetRTPCValue (rtpcName ,rtpcValue);
 	}
 }
+
+
+/*
+ *Used events:
+ * sfx_Imp_Wood /
+ * sfx_Imp_Rock /
+ * sfx_Imp_Paper /
+ * sfx_Imp_Book / 
+ * sfx_Imp_Cloth /
+ * sfx_Mvnt_Paper /
+ * sfx_Imp_Frame /
+ * sfx_Imp_Telegraph /
+ * sfx_Imp_Guitar /
+ * sfx_Imp_Clock/
+ * sfx_Clock / 
+ * sfx_Fire / 
+ * 
+ */
+
