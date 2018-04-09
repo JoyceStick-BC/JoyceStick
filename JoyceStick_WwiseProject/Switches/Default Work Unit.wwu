@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}" SchemaVersion="85">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}">
+					<ChildrenList>
+						<Switch Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+						<Switch Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+						<Switch Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

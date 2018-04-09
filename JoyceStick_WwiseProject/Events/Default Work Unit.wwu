@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{462EA06F-1B65-4604-B35A-B69E3C23B161}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="Aeolus_Events" ID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}" PersistMode="Reference"/>
+				<WorkUnit Name="SandBox" ID="{24D24150-C0E8-4564-850A-5293844EB52A}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

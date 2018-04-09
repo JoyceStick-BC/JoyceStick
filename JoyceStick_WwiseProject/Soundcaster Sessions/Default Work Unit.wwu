@@ -4,33 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{0CC91AF2-A0F3-4893-A6C6-DFC02C46BFA2}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Test" ID="{831F864E-E1BC-4794-B082-7F09EEDC4CA1}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Aeolus_MX_P1" ID="{61B66CA0-4EE8-431E-9831-F2642B10D5FD}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Aeolus_MX_P2" ID="{1EDE2AF5-7D72-48C3-BCA5-338B7C7F17E0}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Aeolus_Start" ID="{8DF71C25-5B87-4FB7-A511-50BD028342CB}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Aeolus_StopAll" ID="{637199A7-BD9E-4CF8-8973-34E0F2F6CF36}" WorkUnitID="{DF9D76A5-2210-4071-88B9-63EE7D73C458}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-					</ModuleList>
-					<RTPCValueList ShowAll="true">
-						<RTPCValue>
-							<GameParameterRef Name="Wind_Velocity" ID="{F8D31583-1A45-4C5F-8A64-061F83438510}"/>
-							<Value>0.143163922691483</Value>
-						</RTPCValue>
-					</RTPCValueList>
-					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Player_State_Phase1" ID="{CCD9BBC0-0F0C-4886-8244-82D774E9AB42}"/>
-					</CurrentStateList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

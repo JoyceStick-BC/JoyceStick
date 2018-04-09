@@ -13,140 +13,238 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
   EventWwu:
-  - PhysicalPath: Events\Aeolus_Events.wwu
-    ParentPhysicalPath: Events\Default Work Unit.wwu
-    Guid: '{DF9D76A5-2210-4071-88B9-63EE7D73C458}'
-    m_lastTimePsrt1: -564588942
-    m_lastTimePart2: -1999266338
-    List:
-    - Name: Aeolus_MX_P1
-      Path: Default Work Unit\Aeolus_Events\Aeolus_MX_P1
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Aeolus_Events
-        ObjectType: 12
-      - ElementName: Aeolus_MX_P1
-        ObjectType: 3
-      ID: -1340746312
-      Guid: a06cb661e84e1e439831f2642b10d5fd
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: Aeolus_MX_P2
-      Path: Default Work Unit\Aeolus_Events\Aeolus_MX_P2
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Aeolus_Events
-        ObjectType: 12
-      - ElementName: Aeolus_MX_P2
-        ObjectType: 3
-      ID: -1340746309
-      Guid: f52ade1e727dc348bca5338b7c7f17e0
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: Aeolus_SFX_Wind
-      Path: Default Work Unit\Aeolus_Events\Aeolus_SFX_Wind
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Aeolus_Events
-        ObjectType: 12
-      - ElementName: Aeolus_SFX_Wind
-        ObjectType: 3
-      ID: -123643009
-      Guid: 50170fe8e856a24ea6f762a23c542e72
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: Aeolus_Start
-      Path: Default Work Unit\Aeolus_Events\Aeolus_Start
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Aeolus_Events
-        ObjectType: 12
-      - ElementName: Aeolus_Start
-        ObjectType: 3
-      ID: -1734328797
-      Guid: 251cf78d875bb74fa51150bd028342cb
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
-    - Name: Aeolus_StopAll
-      Path: Default Work Unit\Aeolus_Events\Aeolus_StopAll
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Aeolus_Events
-        ObjectType: 12
-      - ElementName: Aeolus_StopAll
-        ObjectType: 3
-      ID: 973298338
-      Guid: a79971639ebdf84c897334e0f2f6cf36
-      minDuration: 0
-      maxDuration: 0
-      maxAttenuation: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{462EA06F-1B65-4604-B35A-B69E3C23B161}'
-    m_lastTimePsrt1: -564583937
-    m_lastTimePart2: -1999266338
+    m_lastTimePsrt1: -2004380337
+    m_lastTimePart2: -1999266333
     List: []
+  - PhysicalPath: Events\SandBox.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{24D24150-C0E8-4564-850A-5293844EB52A}'
+    m_lastTimePsrt1: 1280000302
+    m_lastTimePart2: -1999266332
+    List:
+    - Name: sfx_Book
+      Path: Default Work Unit\SandBox\sfx_Book
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Book
+        ObjectType: 3
+      ID: 1622948446
+      Guid: bf80befb39f30e41afd63fdab15d5263
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Clock
+      Path: Default Work Unit\SandBox\sfx_Clock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Clock
+        ObjectType: 3
+      ID: 1180717529
+      Guid: ef4a087f34f9fc4baf46d13412231eeb
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Fire
+      Path: Default Work Unit\SandBox\sfx_Fire
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Fire
+        ObjectType: 3
+      ID: -1754639159
+      Guid: 96ae899fbf69764fa527ed97b3608f3c
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Mat_Cloth
+      Path: Default Work Unit\SandBox\sfx_Mat_Cloth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Mat_Cloth
+        ObjectType: 3
+      ID: -311287328
+      Guid: d902e8230dd9ad4ab5a7e916fba55aa4
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Mat_Leather
+      Path: Default Work Unit\SandBox\sfx_Mat_Leather
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Mat_Leather
+        ObjectType: 3
+      ID: 207091779
+      Guid: e4654dfd94264e41bb5d111dd354ef5b
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Mat_Rock
+      Path: Default Work Unit\SandBox\sfx_Mat_Rock
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Mat_Rock
+        ObjectType: 3
+      ID: 685381719
+      Guid: 80ea48ce498f9a47a3e7aa1a83b28e56
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_Mat_Wood
+      Path: Default Work Unit\SandBox\sfx_Mat_Wood
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_Mat_Wood
+        ObjectType: 3
+      ID: -456825661
+      Guid: 834314beebc16441b1b49cb633610bbd
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_MedalClose
+      Path: Default Work Unit\SandBox\sfx_MedalClose
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_MedalClose
+        ObjectType: 3
+      ID: -683626734
+      Guid: 1f25e2dc9897c14ba9084d07741b09ed
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_SetVelocity_Hard
+      Path: Default Work Unit\SandBox\sfx_SetVelocity_Hard
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_SetVelocity_Hard
+        ObjectType: 3
+      ID: -78327866
+      Guid: a51d1eeaf6922e4eae6d52f050a5a506
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_SetVelocity_Medium
+      Path: Default Work Unit\SandBox\sfx_SetVelocity_Medium
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_SetVelocity_Medium
+        ObjectType: 3
+      ID: 449648328
+      Guid: c2dbcd5d30f6cd4f9a1075c163023573
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_SetVelocity_Soft
+      Path: Default Work Unit\SandBox\sfx_SetVelocity_Soft
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_SetVelocity_Soft
+        ObjectType: 3
+      ID: -1662203271
+      Guid: 23d2fe598e5260488f87a082d54ad7b0
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: sfx_TelegraphClick
+      Path: Default Work Unit\SandBox\sfx_TelegraphClick
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SandBox
+        ObjectType: 12
+      - ElementName: sfx_TelegraphClick
+        ObjectType: 3
+      ID: -1838526499
+      Guid: f8335a06019c4a4a81b0beecc76cf731
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{41FD3CDB-5256-4864-812B-484C01242B3C}'
-    m_lastTimePsrt1: -559348808
-    m_lastTimePart2: -1999266338
+    m_lastTimePsrt1: -1211302450
+    m_lastTimePart2: -1999266334
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}'
-    m_lastTimePsrt1: -546966786
-    m_lastTimePart2: -1999266338
-    List:
-    - Name: Player_State
-      Path: Default Work Unit\Player_State
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Player_State
-        ObjectType: 9
-      ID: -223549364
-      Guid: b98be507cf2c434b81ec7cd6a6f31eb3
-      values:
-      - None
-      - Player_State_Phase1
-      - Player_State_Phase2
-      ValueIcons:
-      - ElementName: None
-        ObjectType: 8
-      - ElementName: Player_State_Phase1
-        ObjectType: 8
-      - ElementName: Player_State_Phase2
-        ObjectType: 8
-      valueIDs: db3ba32ca5ff91d6a6ff91d6
-      ValueGuids:
-      - bytes: 7c3182aceed99e44804da4a988e81f98
-      - bytes: c0bbd9cc0c0f8648824482d774e9ab42
-      - bytes: 099d16e4b83fc34eb4c816f32e83b641
+    m_lastTimePsrt1: -1682936334
+    m_lastTimePart2: -1999266332
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}'
-    m_lastTimePsrt1: -546966786
-    m_lastTimePart2: -1999266338
-    List: []
+    m_lastTimePsrt1: 1400911918
+    m_lastTimePart2: -1999266334
+    List:
+    - Name: VelocitySelection
+      Path: Default Work Unit\VelocitySelection
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VelocitySelection
+        ObjectType: 11
+      ID: 1297979186
+      Guid: 532af4ee7cdf3e47befc891b089a8c11
+      values:
+      - Hard
+      - Medium
+      - Soft
+      ValueIcons:
+      - ElementName: Hard
+        ObjectType: 10
+      - ElementName: Medium
+        ObjectType: 10
+      - ElementName: Soft
+        ObjectType: 10
+      valueIDs: 8e8691d6b08bd2a94195f827
+      ValueGuids:
+      - bytes: 64430231b825b9429fd2032c4474acee
+      - bytes: b6620dd30fc3ad4596f1371f760ebd2f
+      - bytes: acea52e1ad386b47a7991dc030db6659
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9990F58E-50B3-4294-9113-4B4602ABF353}'
-    m_lastTimePsrt1: -546976796
-    m_lastTimePart2: -1999266338
+    m_lastTimePsrt1: -2084731378
+    m_lastTimePart2: -1999266333
     List:
     - Name: AudioTest
       Path: Default Work Unit\AudioTest
@@ -161,18 +259,9 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{33285182-151A-4789-A804-B6D2325E1973}'
-    m_lastTimePsrt1: -564583937
-    m_lastTimePart2: -1999266338
-    List:
-    - Name: Wind_Velocity
-      Path: Default Work Unit\Wind_Velocity
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Wind_Velocity
-        ObjectType: 13
-      ID: 173008787
-      Guid: 8315d3f8451a5f4c8a64061f83438510
+    m_lastTimePsrt1: -1744323697
+    m_lastTimePart2: -1999266332
+    List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -191,7 +280,6 @@ MonoBehaviour:
   - /JoyceStick_WwiseProject
   - /JoyceStick_WwiseProject/Events
   - /JoyceStick_WwiseProject/Events/Default Work Unit
-  - /JoyceStick_WwiseProject/Events/Default Work Unit/Aeolus_Events
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

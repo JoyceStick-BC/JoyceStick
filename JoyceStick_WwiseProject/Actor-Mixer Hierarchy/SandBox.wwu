@@ -5,35 +5,747 @@
 			<ChildrenList>
 				<Folder Name="JoyceStick" ID="{EAFA449A-6973-4AA4-8611-EA6A2E47385F}" ShortID="440821192">
 					<ChildrenList>
-						<Folder Name="Ambiance" ID="{C15F34CA-0160-41E8-B84F-AC5B8C2971E1}" ShortID="906207392"/>
-						<Folder Name="Objects" ID="{DAC7DE17-9639-47E2-98BC-C28CBD3E9898}" ShortID="174261613">
+						<RandomSequenceContainer Name="Telegraph" ID="{C4AB530D-573C-4C5C-86FE-3B639B29D393}" ShortID="732248445">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Clapet" ID="{7EF1E040-4C0B-4137-847F-F02140A35D07}" ShortID="454910637">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<BlendContainer Name="Paper" ID="{482CE454-DD8B-4A57-B993-7F589D4E7C1B}" ShortID="748592097">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+						</BlendContainer>
+						<Folder Name="Materials" ID="{D832286E-784F-422A-A5D8-A337AC58B4AA}" ShortID="984863941">
 							<ChildrenList>
-								<SwitchContainer Name="Books" ID="{97A67156-7060-46CE-B88C-904DC4BDAFA6}" ShortID="646479449">
+								<SwitchContainer Name="Pierre" ID="{E68CA923-41BA-4757-8C09-5BD8ECCBCE24}" ShortID="88823858">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+											<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}" WorkUnitID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}"/>
 										</Reference>
 									</ReferenceList>
-									<GroupingInfo/>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{7E5486EB-6C05-424C-9068-5FC37B122A51}" ShortID="1047642601">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{868D6DBC-8876-4B7A-AB9D-DD0A00694CAB}" ShortID="136533287">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{65B1AC5B-2511-4BE2-B330-94481E7AC132}" ShortID="932447205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{65B1AC5B-2511-4BE2-B330-94481E7AC132}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{868D6DBC-8876-4B7A-AB9D-DD0A00694CAB}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{7E5486EB-6C05-424C-9068-5FC37B122A51}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+												<ItemList>
+													<ItemRef Name="Hard" ID="{65B1AC5B-2511-4BE2-B330-94481E7AC132}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+												<ItemList>
+													<ItemRef Name="Soft" ID="{7E5486EB-6C05-424C-9068-5FC37B122A51}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+												<ItemList>
+													<ItemRef Name="Medium" ID="{868D6DBC-8876-4B7A-AB9D-DD0A00694CAB}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
 								</SwitchContainer>
-								<SwitchContainer Name="Cane" ID="{3F0D4225-1B35-4AF1-A180-EFE381D8913C}" ShortID="382588627">
+								<SwitchContainer Name="Cloth" ID="{C1A5F11F-125A-4D3A-9AA0-9B3E8A2015A4}" ShortID="919817611">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+											<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}" WorkUnitID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}"/>
 										</Reference>
 									</ReferenceList>
-									<GroupingInfo/>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{8C701986-DA2A-42FB-858E-529B00ACD08D}" ShortID="756780805">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}" ShortID="745922402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}" ShortID="324167633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{8C701986-DA2A-42FB-858E-529B00ACD08D}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+												<ItemList>
+													<ItemRef Name="Hard" ID="{332EF787-A579-4DD5-A054-F770D4BBB0F0}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+												<ItemList>
+													<ItemRef Name="Soft" ID="{8C701986-DA2A-42FB-858E-529B00ACD08D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+												<ItemList>
+													<ItemRef Name="Medium" ID="{4D503A3F-53AB-4006-A051-E96FCFA65BBB}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Metal" ID="{0024D330-6DBA-46DD-9332-564DECF4E3E9}" ShortID="643198213">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}" WorkUnitID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{F5FA1E6B-3D01-498A-9FD3-6112426BFC59}" ShortID="628640983">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{B52522D6-1E8F-4AF0-9002-DC91F800782C}" ShortID="418480458">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{A276163E-E377-4500-838F-1C2944229445}" ShortID="518343312">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{A276163E-E377-4500-838F-1C2944229445}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{F5FA1E6B-3D01-498A-9FD3-6112426BFC59}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{B52522D6-1E8F-4AF0-9002-DC91F800782C}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+												<ItemList>
+													<ItemRef Name="Hard" ID="{A276163E-E377-4500-838F-1C2944229445}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+												<ItemList>
+													<ItemRef Name="Soft" ID="{F5FA1E6B-3D01-498A-9FD3-6112426BFC59}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+												<ItemList>
+													<ItemRef Name="Medium" ID="{B52522D6-1E8F-4AF0-9002-DC91F800782C}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Bois" ID="{0563ED18-0FD6-41DC-BCC1-FC9B4403B525}" ShortID="29022892">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}" WorkUnitID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{7D94ECBF-6A98-49D9-9CF6-D377819E98BA}" ShortID="366782324">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{2060F487-7A39-40FA-BFEF-EEB2AA6007B6}" ShortID="571614008">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{CBE82D77-1D65-43FB-997E-9BC44D80A947}" ShortID="155741642">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{CBE82D77-1D65-43FB-997E-9BC44D80A947}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{2060F487-7A39-40FA-BFEF-EEB2AA6007B6}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{7D94ECBF-6A98-49D9-9CF6-D377819E98BA}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+												<ItemList>
+													<ItemRef Name="Hard" ID="{CBE82D77-1D65-43FB-997E-9BC44D80A947}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+												<ItemList>
+													<ItemRef Name="Soft" ID="{7D94ECBF-6A98-49D9-9CF6-D377819E98BA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+												<ItemList>
+													<ItemRef Name="Medium" ID="{2060F487-7A39-40FA-BFEF-EEB2AA6007B6}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Cuire" ID="{01F6B88F-50B6-49F3-BC36-3104261EE05F}" ShortID="191734296">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}" WorkUnitID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{66CED6BB-A686-44E1-AE3E-6A4FEF1EAD7A}" ShortID="76498177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{4B133A35-AEB0-4469-9830-F6ED8D8E4497}" ShortID="767097789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{EF135239-3066-40F2-B325-926BF9A9F704}" ShortID="142081630">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{4B133A35-AEB0-4469-9830-F6ED8D8E4497}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{EF135239-3066-40F2-B325-926BF9A9F704}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{66CED6BB-A686-44E1-AE3E-6A4FEF1EAD7A}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+												<ItemList>
+													<ItemRef Name="Hard" ID="{EF135239-3066-40F2-B325-926BF9A9F704}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+												<ItemList>
+													<ItemRef Name="Soft" ID="{66CED6BB-A686-44E1-AE3E-6A4FEF1EAD7A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+												<ItemList>
+													<ItemRef Name="Medium" ID="{4B133A35-AEB0-4469-9830-F6ED8D8E4497}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Cadre" ID="{72231E05-D77A-4BAA-9E60-F1368E800B14}" ShortID="151884853">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="VelocitySelection" ID="{EEF42A53-DF7C-473E-BEFC-891B089A8C11}" WorkUnitID="{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Soft" ID="{3FB889EF-0827-444F-90E0-68E73F39FB67}" ShortID="20786711">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Medium" ID="{275BA97A-562D-4D76-9206-6D5777E2ECB4}" ShortID="82782872">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hard" ID="{EF678746-4231-4FFE-A099-059EEE980E8A}" ShortID="593529763">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Hard" ID="{EF678746-4231-4FFE-A099-059EEE980E8A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Medium" ID="{275BA97A-562D-4D76-9206-6D5777E2ECB4}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Soft" ID="{3FB889EF-0827-444F-90E0-68E73F39FB67}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hard" ID="{31024364-25B8-42B9-9FD2-032C4474ACEE}"/>
+												<ItemList>
+													<ItemRef Name="Hard" ID="{EF678746-4231-4FFE-A099-059EEE980E8A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Soft" ID="{E152EAAC-38AD-476B-A799-1DC030DB6659}"/>
+												<ItemList>
+													<ItemRef Name="Soft" ID="{3FB889EF-0827-444F-90E0-68E73F39FB67}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Medium" ID="{D30D62B6-C30F-45AD-96F1-371F760EBD2F}"/>
+												<ItemList>
+													<ItemRef Name="Medium" ID="{275BA97A-562D-4D76-9206-6D5777E2ECB4}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="sfx_Fire" ID="{A0F236A0-F763-4C84-B20F-7668B157798A}" ShortID="971209607">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_Fire" ID="{DFBCF0C8-FD23-4931-8536-C13BB37C9679}" ShortID="734648075">
+									<Language>SFX</Language>
+									<AudioFile>sfx_Fire.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_Fire" ID="{DFBCF0C8-FD23-4931-8536-C13BB37C9679}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="Clock" ID="{9AC07E3B-1F84-42B6-9A06-46EB6B1DC7F0}" ShortID="741329316">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="StandardAttenuation" ID="{E976C8A4-31B9-4C06-8AFB-11829432D4DF}" WorkUnitID="{6F18239A-A984-4107-9327-A37F57D98A13}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sfx_clock_01" ID="{B622A709-43A9-40A7-BF46-52E038E5D662}" ShortID="645156581">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_clock_01" ID="{2BA5D256-BBA2-458D-B62D-018DFF5C72AC}" ShortID="159855840">
+									<Language>SFX</Language>
+									<AudioFile>sfx_clock_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_clock_01" ID="{2BA5D256-BBA2-458D-B62D-018DFF5C72AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_clock_02" ID="{B7AB3A64-1D76-4EA2-B593-0F6C1BB29828}" ShortID="983297897">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_clock_02" ID="{98B54967-2D36-4DDD-A0A0-E9E4F68FC154}" ShortID="914896481">
+									<Language>SFX</Language>
+									<AudioFile>sfx_clock_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_clock_02" ID="{98B54967-2D36-4DDD-A0A0-E9E4F68FC154}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_clock_03" ID="{4AF4DA33-DDA2-4188-B1FB-5EF89DF503C9}" ShortID="318932753">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_clock_03" ID="{32D78B86-F0DB-48D0-A2BB-D5EA1BC7CEF8}" ShortID="10811419">
+									<Language>SFX</Language>
+									<AudioFile>sfx_clock_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_clock_03" ID="{32D78B86-F0DB-48D0-A2BB-D5EA1BC7CEF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_clock_04" ID="{6DB9308B-63F5-4C74-BA8B-664B4EDC4368}" ShortID="482660455">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_clock_04" ID="{8B3E231B-A37E-4D18-B590-C2592D045F85}" ShortID="1062535440">
+									<Language>SFX</Language>
+									<AudioFile>sfx_clock_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_clock_04" ID="{8B3E231B-A37E-4D18-B590-C2592D045F85}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_clock_05" ID="{9FCBCDED-85CC-45DF-A9ED-A911FB74AFC8}" ShortID="973962840">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_clock_05" ID="{D21B44A2-FD9D-4842-BF9D-71AC6CD951B6}" ShortID="311773945">
+									<Language>SFX</Language>
+									<AudioFile>sfx_clock_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_clock_05" ID="{D21B44A2-FD9D-4842-BF9D-71AC6CD951B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_clock_06" ID="{282A9BA4-274B-4E80-B35D-CB6064D943D8}" ShortID="568417814">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C57BDE94-3EC8-4372-8079-5663B84E651C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41FD3CDB-5256-4864-812B-484C01242B3C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_clock_06" ID="{FABFFE69-A2F7-4681-9E7F-C7BBCB71131D}" ShortID="379568364">
+									<Language>SFX</Language>
+									<AudioFile>sfx_clock_06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_clock_06" ID="{FABFFE69-A2F7-4681-9E7F-C7BBCB71131D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="sfx_clock_01" ID="{B622A709-43A9-40A7-BF46-52E038E5D662}"/>
+						<ItemRef Name="sfx_clock_02" ID="{B7AB3A64-1D76-4EA2-B593-0F6C1BB29828}"/>
+						<ItemRef Name="sfx_clock_03" ID="{4AF4DA33-DDA2-4188-B1FB-5EF89DF503C9}"/>
+						<ItemRef Name="sfx_clock_04" ID="{6DB9308B-63F5-4C74-BA8B-664B4EDC4368}"/>
+						<ItemRef Name="sfx_clock_05" ID="{9FCBCDED-85CC-45DF-A9ED-A911FB74AFC8}"/>
+						<ItemRef Name="sfx_clock_06" ID="{282A9BA4-274B-4E80-B35D-CB6064D943D8}"/>
+					</Playlist>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

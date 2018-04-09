@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{33285182-151A-4789-A804-B6D2325E1973}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{33285182-151A-4789-A804-B6D2325E1973}" PersistMode="Standalone">
-			<ChildrenList>
-				<GameParameter Name="Wind_Velocity" ID="{F8D31583-1A45-4C5F-8A64-061F83438510}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="20"/>
-						<Property Name="Max" Type="Real64" Value="20"/>
-					</PropertyList>
-				</GameParameter>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{33285182-151A-4789-A804-B6D2325E1973}" PersistMode="Standalone"/>
 	</GameParameters>
 </WwiseDocument>

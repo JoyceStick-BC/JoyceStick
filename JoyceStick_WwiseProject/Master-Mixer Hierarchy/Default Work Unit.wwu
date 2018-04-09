@@ -16,6 +16,13 @@
 							<ObjectRef Name="System" ID="{B00F4FD0-05EE-48CC-AA45-6285A75ED255}" WorkUnitID="{A5C20886-A0AF-4573-863C-CEA818CCA3DB}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SandBox" ID="{0560AD49-563A-4B49-BDDB-175297B91BFA}">
+							<ChildrenList>
+								<Bus Name="SFX" ID="{7D03894C-0AA0-485E-89C4-6B03ED6A3265}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

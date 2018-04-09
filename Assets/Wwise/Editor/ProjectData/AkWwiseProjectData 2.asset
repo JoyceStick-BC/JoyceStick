@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c835eb7362f5c47b28a99636feebceca, type: 3}
+  m_Name: AkWwiseProjectData 2
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Aeolus_Events.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    Guid: '{DF9D76A5-2210-4071-88B9-63EE7D73C458}'
+    m_lastTimePsrt1: 1345878422
+    m_lastTimePart2: -1999266303
+    List:
+    - Name: Aeolus_MX_P1
+      Path: Default Work Unit\Aeolus_Events\Aeolus_MX_P1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aeolus_Events
+        ObjectType: 12
+      - ElementName: Aeolus_MX_P1
+        ObjectType: 3
+      ID: -1340746312
+      Guid: a06cb661e84e1e439831f2642b10d5fd
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Aeolus_MX_P2
+      Path: Default Work Unit\Aeolus_Events\Aeolus_MX_P2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aeolus_Events
+        ObjectType: 12
+      - ElementName: Aeolus_MX_P2
+        ObjectType: 3
+      ID: -1340746309
+      Guid: f52ade1e727dc348bca5338b7c7f17e0
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Aeolus_SFX_Wind
+      Path: Default Work Unit\Aeolus_Events\Aeolus_SFX_Wind
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aeolus_Events
+        ObjectType: 12
+      - ElementName: Aeolus_SFX_Wind
+        ObjectType: 3
+      ID: -123643009
+      Guid: 50170fe8e856a24ea6f762a23c542e72
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Aeolus_Start
+      Path: Default Work Unit\Aeolus_Events\Aeolus_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aeolus_Events
+        ObjectType: 12
+      - ElementName: Aeolus_Start
+        ObjectType: 3
+      ID: -1734328797
+      Guid: 251cf78d875bb74fa51150bd028342cb
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Aeolus_StopAll
+      Path: Default Work Unit\Aeolus_Events\Aeolus_StopAll
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aeolus_Events
+        ObjectType: 12
+      - ElementName: Aeolus_StopAll
+        ObjectType: 3
+      ID: 973298338
+      Guid: a79971639ebdf84c897334e0f2f6cf36
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{462EA06F-1B65-4604-B35A-B69E3C23B161}'
+    m_lastTimePsrt1: 1345888148
+    m_lastTimePart2: -1999266303
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{41FD3CDB-5256-4864-812B-484C01242B3C}'
+    m_lastTimePsrt1: 1351533591
+    m_lastTimePart2: -1999266303
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}'
+    m_lastTimePsrt1: 1366705065
+    m_lastTimePart2: -1999266303
+    List:
+    - Name: Player_State
+      Path: Default Work Unit\Player_State
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_State
+        ObjectType: 9
+      ID: -223549364
+      Guid: b98be507cf2c434b81ec7cd6a6f31eb3
+      values:
+      - None
+      - Player_State_Phase1
+      - Player_State_Phase2
+      ValueIcons:
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Player_State_Phase1
+        ObjectType: 8
+      - ElementName: Player_State_Phase2
+        ObjectType: 8
+      valueIDs: db3ba32ca5ff91d6a6ff91d6
+      ValueGuids:
+      - bytes: 7c3182aceed99e44804da4a988e81f98
+      - bytes: c0bbd9cc0c0f8648824482d774e9ab42
+      - bytes: 099d16e4b83fc34eb4c816f32e83b641
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}'
+    m_lastTimePsrt1: 1366715094
+    m_lastTimePart2: -1999266303
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9990F58E-50B3-4294-9113-4B4602ABF353}'
+    m_lastTimePsrt1: 1366695044
+    m_lastTimePart2: -1999266303
+    List:
+    - Name: AudioTest
+      Path: Default Work Unit\AudioTest
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AudioTest
+        ObjectType: 7
+      ID: -766187563
+      Guid: 3d14b7c81d20a2408293507d2da8a7ac
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{33285182-151A-4789-A804-B6D2325E1973}'
+    m_lastTimePsrt1: 1345888148
+    m_lastTimePart2: -1999266303
+    List:
+    - Name: Wind_Velocity
+      Path: Default Work Unit\Wind_Velocity
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wind_Velocity
+        ObjectType: 13
+      ID: 173008787
+      Guid: 8315d3f8451a5f4c8a64061f83438510
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2B8F93FF-2C95-4787-B4AE-C498BAD0D63C}'
+    m_lastTimePsrt1: 1366725126
+    m_lastTimePart2: -1999266303
+    List: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{DACC96C7-D915-4F78-A359-EC8E955B28CF}'
+    m_lastTimePsrt1: 1366735147
+    m_lastTimePart2: -1999266303
+    List: []
+  ExpandedItems: []
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4
