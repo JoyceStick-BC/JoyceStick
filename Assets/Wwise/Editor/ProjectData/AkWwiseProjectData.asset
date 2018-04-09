@@ -16,14 +16,14 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{462EA06F-1B65-4604-B35A-B69E3C23B161}'
-    m_lastTimePsrt1: -2004380337
-    m_lastTimePart2: -1999266333
+    m_lastTimePsrt1: 243046615
+    m_lastTimePart2: -1999266287
     List: []
   - PhysicalPath: Events\SandBox.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     Guid: '{24D24150-C0E8-4564-850A-5293844EB52A}'
-    m_lastTimePsrt1: 1280000302
-    m_lastTimePart2: -1999266332
+    m_lastTimePsrt1: -890767297
+    m_lastTimePart2: -1999266281
     List:
     - Name: sfx_Book
       Path: Default Work Unit\SandBox\sfx_Book
@@ -197,22 +197,22 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{41FD3CDB-5256-4864-812B-484C01242B3C}'
-    m_lastTimePsrt1: -1211302450
-    m_lastTimePart2: -1999266334
+    m_lastTimePsrt1: 243131687
+    m_lastTimePart2: -1999266287
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B1C443F0-705E-4A97-885D-83BE5F6FBFA5}'
-    m_lastTimePsrt1: -1682936334
-    m_lastTimePart2: -1999266332
+    m_lastTimePsrt1: 244713204
+    m_lastTimePart2: -1999266287
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{DE0B77FB-C361-40F0-A1B9-B5AC52BBDA2F}'
-    m_lastTimePsrt1: 1400911918
-    m_lastTimePart2: -1999266334
+    m_lastTimePsrt1: 244723213
+    m_lastTimePart2: -1999266287
     List:
     - Name: VelocitySelection
       Path: Default Work Unit\VelocitySelection
@@ -243,25 +243,34 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9990F58E-50B3-4294-9113-4B4602ABF353}'
-    m_lastTimePsrt1: -2084731378
-    m_lastTimePart2: -1999266333
+    m_lastTimePsrt1: 244703199
+    m_lastTimePart2: -1999266287
     List:
-    - Name: AudioTest
-      Path: Default Work Unit\AudioTest
+    - Name: SandBox
+      Path: Default Work Unit\SandBox
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: AudioTest
+      - ElementName: SandBox
         ObjectType: 7
-      ID: -766187563
-      Guid: 3d14b7c81d20a2408293507d2da8a7ac
+      ID: 222378406
+      Guid: c22d07d4ebdef5428749b7ab37e30bde
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{33285182-151A-4789-A804-B6D2325E1973}'
-    m_lastTimePsrt1: -1744323697
-    m_lastTimePart2: -1999266332
-    List: []
+    m_lastTimePsrt1: -890732263
+    m_lastTimePart2: -1999266281
+    List:
+    - Name: Velocity
+      Path: Default Work Unit\Velocity
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Velocity
+        ObjectType: 13
+      ID: -775526104
+      Guid: 67ade4af44556d428abe7a9e9c7da50c
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -280,6 +289,7 @@ MonoBehaviour:
   - /JoyceStick_WwiseProject
   - /JoyceStick_WwiseProject/Events
   - /JoyceStick_WwiseProject/Events/Default Work Unit
+  - /JoyceStick_WwiseProject/Events/Default Work Unit/SandBox
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
